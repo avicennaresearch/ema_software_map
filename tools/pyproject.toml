@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "tools"
+version = "0.1.0"
+description = ""
+authors = ["Mohammad Hashemian <mohammad@avicennaresearch.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ipython = "^8.22.1"
+psycopg2-binary = "^2.9.9"
+dateutils = "^0.6.12"
+django-extensions = "^3.2.3"
+elasticsearch = "^8.12.1"
+tiktoken = "^0.6.0"
+openai = "^1.14.0"
+numpy = "^1.26.4"
+scipy = "^1.12.0"
+pandas = "^2.2.1"
+html2text = "^2024.2.26"
+channels = "^4.0.0"
+djangoql = "^0.18.1"
+bs4 = "^0.0.2"
+
+[tool.poetry.group.dev.dependencies]
+ipdb = "^0.13.13"
+Django = "^5.0.2"
+Scrapy = "^2.11.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
