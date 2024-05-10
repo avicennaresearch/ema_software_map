@@ -39,6 +39,7 @@ jobs:
 
           # Save the modified CSV
           df.to_csv('EMA_Feature_Comparison.csv', index=False)
+        shell: python
 
       - name: Commit and push changes
         run: |
