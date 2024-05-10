@@ -3,7 +3,7 @@ name: Modify CSV Content
 on:
   push:
     paths:
-      - 'EMA_Feature_Comparison.csv'
+      - 'EMA_Feature_Comparison.json'
 
 jobs:
   modify_csv:
@@ -23,7 +23,7 @@ jobs:
           pip install pandas
 
       - name: Modify CSV
-        run: python scripts/process_csv.py
+        run: python scripts/process_json.py
 
       - name: Commit and push changes
         run: |
