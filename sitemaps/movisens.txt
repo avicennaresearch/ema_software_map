@@ -1,0 +1,14 @@
+https://docs.movisens.com/
+    https://docs.movisens.com/movisensXS/
+        https://docs.movisens.com/movisensXS/device_guideline/
+        https://docs.movisens.com/movisensXS/app_installation/
+        https://docs.movisens.com/movisensXS/app_usage/
+        https://docs.movisens.com/movisensXS/platform_usage/
+        https://docs.movisens.com/movisensXS/forms/
+        https://docs.movisens.com/movisensXS/sampling/
+        https://docs.movisens.com/movisensXS/mobile_sensing/
+        https://docs.movisens.com/movisensXS/faq/
+        https://docs.movisens.com/movisensXS/recent_changes/
+        https://docs.movisens.com/movisensXS/developer/
+    https://docs.movisens.com/Support/
+        https://docs.movisens.com/Support/movisensXS/
