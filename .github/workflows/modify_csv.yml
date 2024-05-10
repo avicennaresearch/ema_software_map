@@ -1,0 +1,49 @@
+name: Modify CSV Content
+
+on:
+  push:
+    paths:
+      - 'EMA_Feature_Comparison.csv'
+
+jobs:
+  modify_csv:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.9'
+
+      - name: Install Python packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas
+
+      - name: Modify CSV
+        run: |
+          import pandas as pd
+
+          # Load the CSV file
+          df = pd.read_csv('EMA_Feature_Comparison.csv')
+
+          # Function to split long text
+          def split_long_text(text, max_length):
+              return '\\n'.join([text[i:i+max_length] for i in range(0, len(text), max_length)])
+
+          # Apply the function to each cell in the dataframe
+          for col in df.columns:
+              df[col] = df[col].apply(lambda x: split_long_text(str(x), 60) if len(str(x)) > 60 else x)
+
+          # Save the modified CSV
+          df.to_csv('EMA_Feature_Comparison.csv', index=False)
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add EMA_Feature_Comparison.csv
+          git commit -m "Automatically modify long text in CSV"
+          git push
