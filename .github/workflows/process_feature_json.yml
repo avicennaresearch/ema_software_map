@@ -1,4 +1,4 @@
-name: Modify CSV Content
+name: Process Feature File
 
 on:
   push:
@@ -21,6 +21,13 @@ jobs:
       - name: Load secret into environment
         run: |
           echo "G_SHEETS_TOKEN=${{ secrets.G_SHEETS_TOKEN }}"
+
+      - name: Use the secret in Python script
+        run: |
+          import os
+          import json
+          token = json.loads(os.getenv('G_SHEETS_TOKEN').replace('\n', '\\n'))
+          print(json.dumps(token))
 
       # - name: Install Python packages
       #   run: |
