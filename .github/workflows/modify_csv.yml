@@ -1,6 +1,7 @@
 name: Modify CSV Content
 
 on:
+  workflow_dispatch
   push:
     paths:
       - 'EMA_Feature_Comparison.json'
