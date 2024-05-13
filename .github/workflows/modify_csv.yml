@@ -1,10 +1,10 @@
 name: Modify CSV Content
 
-on: workflow_dispatch
 on:
   push:
     paths:
       - 'EMA_Feature_Comparison.json'
+  workflow_dispatch:
 
 jobs:
   modify_csv:
