@@ -5,12 +5,12 @@ from google.oauth2.credentials import Credentials
 from google.auth.transport.requests import Request
 from googleapiclient.discovery import build
 
-HEADER_COLORS = {
+CATEGORY_COLORS = {
     "red": 0.42,
     "green": 0.62,
     "blue": 0.92
 }
-SUBHEADER_COLORS = {
+SUBCATEGORY_COLORS = {
     "red": 0.79,
     "green": 0.85,
     "blue": 0.97
@@ -84,14 +84,13 @@ def _get_gapi_service():
 data = _load_feature_data()
 gspread_client = _get_gspread_client()
 spreadsheet = gspread_client.open_by_url(SHEET_URL)
-current_sheet = spreadsheet.add_worksheet(
-    title="Competitive Landscape - WIP", rows=400, cols=30
-)
 spreadsheet.del_worksheet([
     x for x in spreadsheet.worksheets()
     if x.title == 'Competitive Landscape'
 ][0])
-current_sheet.update_title('Competitive Landscape')
+current_sheet = spreadsheet.add_worksheet(
+    title="Competitive Landscape", rows=400, cols=30
+)
 
 #
 # Update formula
@@ -99,100 +98,65 @@ current_sheet.update_title('Competitive Landscape')
 
 formula_details = []
 grouping_details = []
-header_color_row_ids = []
-subheader_color_row_ids = []
-visited_headers_stack = []
-overall_score_row_counter = None
-first_feature_sheet_row_id = None
-last_feature_sheet_row_id = None
-last_visited_header_id = None
-last_visited_subheader_id = None
+category_color_row_ids = []
+subcategory_color_row_ids = []
+overall_score_row_index = None
+row_id = 1 # ID of the row in spreadsheet (starts from 1)
+feature_start = float("inf")
 
-def _pop_from_stack_and_add_to_formula(lhid, ub):
-    obj = visited_headers_stack.pop()
-    obj["upper_bound"] = ub
-    if lhid != 0:
-        formula_details.append(obj)
-    if obj["visited_subheader_id"] is None:
-        glb = obj["lower_bound"] - 2
-    else:
-        glb = obj["lower_bound"] - 1
-    grouping_details.append((glb, obj["upper_bound"]))
+flat_data = []
+for ic, cat in enumerate(data["categories"]):
+    cat_id = int(cat["Row ID"])
+    row_id += 1
+    cur_cat_row_id = row_id
+    print(f"Working on row {row_id} - {cat['Feature Name']}")
+    category_color_row_ids.append((cat_id, cur_cat_row_id))
+    flat_data.append({k: v for k, v in cat.items() if k != "subcategories"})
+    cat_feature_start = float("inf")
+    cat_feature_end = float("-inf")
 
-sheet_row_id = None
-for row_counter, entry in enumerate(data):
-    sheet_row_id = row_counter + 2
-    row_id = entry["Row ID"]
-    tokens = row_id.split(".")
-    current_header_id = int(tokens[0])
-    current_subheader_id = int(tokens[1]) if len(tokens) > 1 else None
-    feature_name = entry["Feature Name"]
-    print(f"Working on row {sheet_row_id} for {row_id} for {feature_name}")
+    for isc, subcat in enumerate(cat["subcategories"]):
+        subcat_id = int(subcat["Row ID"].split(".")[1])
+        row_id += 1
+        cur_subcat_row_id = row_id
+        print(f"Working on row {row_id} - {subcat['Feature Name']}")
+        subcategory_color_row_ids.append((cat_id, cur_subcat_row_id))
+        flat_data.append({k: v for k, v in subcat.items() if k != "features"})
 
-    if feature_name == "Overall Score":
-        overall_score_row_counter = row_counter # will be used in future itrs.
+        subcat_feature_start = float("inf")
+        subcat_feature_end = float("-inf")
+        for ifr, feature in enumerate(subcat["features"]):
+            row_id += 1
+            feature_name = feature["Feature Name"]
+            print(f"Working on row {row_id} - {feature_name}")
+            cat_feature_start = min(cat_feature_start, row_id)
+            cat_feature_end = max(cat_feature_end, row_id)
+            subcat_feature_start = min(subcat_feature_start, row_id)
+            subcat_feature_end = max(subcat_feature_end, row_id)
 
-    if len(tokens) == 1:
-        header_color_row_ids.append((current_header_id, sheet_row_id))
-    elif len(tokens) == 2:
-        subheader_color_row_ids.append((current_header_id, sheet_row_id))
-    if row_id == "1.1.1":
-        first_feature_sheet_row_id = sheet_row_id
+            if feature_name == "Overall Score":
+                # Save the address of "Overall Score" feature
+                overall_score_row_index = row_id
+            if feature["Row ID"] == "1.1.1":
+                feature_start = row_id
+            flat_data.append(feature)
 
-    if (
-        last_visited_header_id is None
-        or last_visited_header_id != current_header_id
-    ):
-        if last_visited_header_id is not None: # Should pop previous ones
-            # The last subheader finished 3 rows above
-            _pop_from_stack_and_add_to_formula(
-                last_visited_header_id, sheet_row_id - 1
-            )
-            # The last header also finished 3 rows above
-            _pop_from_stack_and_add_to_formula(
-                last_visited_header_id, sheet_row_id - 1
-            )
-        visited_headers_stack.append({
-            "row_counter": row_counter,
-            "visited_header_id": current_header_id,
-            "visited_subheader_id": current_subheader_id,
-            "lower_bound": sheet_row_id + 2,
-            "upper_bound": None
+        formula_details.append({
+            "row_index": cur_subcat_row_id - 2,
+            "lower_bound": subcat_feature_start,
+            "upper_bound": subcat_feature_end
         })
-    elif (
-        last_visited_subheader_id is None
-        or last_visited_subheader_id != current_subheader_id
-    ):
-        # If current shid = 1, the pop happened when visiting the header.
-        should_pop = (
-            last_visited_subheader_id is not None
-            and current_subheader_id != 1
-        )
-        if should_pop:
-            # The last subheader finished 3 rows above
-            _pop_from_stack_and_add_to_formula(
-                last_visited_header_id, sheet_row_id - 1
-            )
-        visited_headers_stack.append({
-            "row_counter": row_counter,
-            "visited_header_id": current_header_id,
-            "visited_subheader_id": current_subheader_id,
-            "lower_bound": sheet_row_id + 1,
-            "upper_bound": None
-        })
-
-    last_visited_header_id = current_header_id
-    last_visited_subheader_id = current_subheader_id
-
-while visited_headers_stack:
-    obj = visited_headers_stack.pop()
-    obj['upper_bound'] = sheet_row_id
-    formula_details.append(obj)
-
+        grouping_details.append((cur_subcat_row_id, row_id))
+    formula_details.append({
+        "row_index": cur_cat_row_id - 2,
+        "lower_bound": cat_feature_start,
+        "upper_bound": cat_feature_end
+    })
+    grouping_details.append((cur_cat_row_id, row_id))
 formula_details.append({
-    "row_counter": overall_score_row_counter,
-    "lower_bound": first_feature_sheet_row_id,
-    "upper_bound": sheet_row_id
+    "row_index": overall_score_row_index - 2,
+    "lower_bound": feature_start,
+    "upper_bound": row_id
 })
 
 for fd in formula_details:
@@ -200,7 +164,7 @@ for fd in formula_details:
         lb = fd["lower_bound"]
         ub = fd["upper_bound"]
         sc = score_column = company_columns[0]
-        data[fd["row_counter"]][f"{company_name} - Score"] = f"""=IFERROR(
+        flat_data[fd["row_index"]][f"{company_name} - Score"] = f"""=IFERROR(
             SUMPRODUCT(
                 (REGEXMATCH(ARRAYFORMULA(
                     TO_TEXT({sc}{lb}:{sc}{ub})), \"^Supported$\") * 1) +
@@ -223,12 +187,12 @@ for fd in formula_details:
 #
 # Insert Data
 #
-keys = data[0].keys()
+keys = flat_data[0].keys()
 cells = []
 for i, key in enumerate(keys):
     cells.append(gspread.Cell(row=1, col=i + 1, value=key))
 
-for row_counter, entry in enumerate(data):
+for row_counter, entry in enumerate(flat_data):
     for clm_counter, value in enumerate(entry.values()):
         cells.append(gspread.Cell(
             row=row_counter + 2, col=clm_counter + 1, value=value
@@ -237,6 +201,7 @@ for row_counter, entry in enumerate(data):
 current_sheet.update_cells(cells, value_input_option='USER_ENTERED')
 
 sleep(5)
+
 #
 # Format them
 #
@@ -254,17 +219,17 @@ sleep(5)
 
 # Group them
 for gd in grouping_details:
-    print(f'From {gd[0]} to {gd[1]}')
+    print(f'Grouping from {gd[0]} to {gd[1]}')
     current_sheet.add_dimension_group_rows(gd[0], gd[1])
-    sleep(0.5)
+    sleep(1)
 
-# Color headers and subheaders, and mark the % rows as PercentNumberFormat
+# Color categories and subcategories, and mark the % rows as PercentNumberFormat
 body_requests = [{
     "repeatCell": {
         "range": {
             "sheetId": current_sheet.id,
-            "startRowIndex": overall_score_row_counter + 2 - 1,
-            "endRowIndex": overall_score_row_counter + 2,
+            "startRowIndex": overall_score_row_index + 2 - 1,
+            "endRowIndex": overall_score_row_index + 2,
             "startColumnIndex": 2,
             "endColumnIndex": 50,
         },
@@ -358,7 +323,7 @@ body_requests = [{
                     "type": "CUSTOM_FORMULA",
                     "values": [{"userEnteredValue": "=REGEXMATCH(TO_TEXT(INDIRECT(\"A\" & ROW())), \"^\d+$\")"}]
                 },
-                "format": {"backgroundColor": HEADER_COLORS,}
+                "format": {"backgroundColor": CATEGORY_COLORS,}
             }
         },
     }
@@ -379,16 +344,16 @@ body_requests = [{
                     "type": "CUSTOM_FORMULA",
                     "values": [{"userEnteredValue": "=REGEXMATCH(TO_TEXT(INDIRECT(\"A\" & ROW())), \"^\d+\.\d+$\")"}]
                 },
-                "format": {"backgroundColor": SUBHEADER_COLORS,}
+                "format": {"backgroundColor": SUBCATEGORY_COLORS,}
             }
         },
     }
 },
 ]
-for rid in header_color_row_ids:
-    header_id = rid[0]
+for rid in category_color_row_ids:
+    category_id = rid[0]
     sheet_row_id = rid[1]
-    if header_id != 0:
+    if category_id != 0:
         body_requests.append({
             "repeatCell": {
                 "range": {
@@ -409,10 +374,10 @@ for rid in header_color_row_ids:
                 "fields": "userEnteredFormat.numberFormat"
             }
         })
-for rid in subheader_color_row_ids:
-    header_id = rid[0]
+for rid in subcategory_color_row_ids:
+    category_id = rid[0]
     sheet_row_id = rid[1]
-    if header_id != 0:
+    if category_id != 0:
         body_requests.append({
             "repeatCell": {
                 "range": {
