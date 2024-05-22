@@ -47,11 +47,11 @@ SHEET_ID = '1zRuZIJKE9mm90asM9U07MRmoJE51giFEUMJQhXZDf3Y'
 SHEET_URL = f'https://docs.google.com/spreadsheets/d/{SHEET_ID}'
 
 def _load_feature_data():
-    with open("/home/mohammad/my_files/ema_software_comparison/EMA_Feature_Comparison_v2.json", "r") as f:
+    with open("EMA_Feature_Comparison.json", "r") as f:
         return json.load(f)
 
 def _get_token_data():
-    with open("/home/mohammad/my_files/ema_software_comparison/gsheets_token.json", "r") as f:
+    with open("gsheets_token.json", "r") as f:
         return json.load(f)
 
 def _set_credentials_obj():
