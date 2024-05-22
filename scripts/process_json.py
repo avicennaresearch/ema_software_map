@@ -47,11 +47,11 @@ SHEET_ID = '1zRuZIJKE9mm90asM9U07MRmoJE51giFEUMJQhXZDf3Y'
 SHEET_URL = f'https://docs.google.com/spreadsheets/d/{SHEET_ID}'
 
 def _load_feature_data():
-    with open("EMA_Feature_Comparison.json", "r") as f:
+    with open("/home/mohammad/my_files/ema_software_comparison/EMA_Feature_Comparison_v2.json", "r") as f:
         return json.load(f)
 
 def _get_token_data():
-    with open("gsheets_token.json", "r") as f:
+    with open("/home/mohammad/my_files/ema_software_comparison/gsheets_token.json", "r") as f:
         return json.load(f)
 
 def _set_credentials_obj():
@@ -97,12 +97,12 @@ current_sheet = spreadsheet.add_worksheet(
 #
 
 formula_details = []
+grouping_details = []
 category_color_row_ids = []
 subcategory_color_row_ids = []
 overall_score_row_index = None
 row_id = 1 # ID of the row in spreadsheet (starts from 1)
 feature_start = float("inf")
-feature_end = float("-inf")
 
 flat_data = []
 for ic, cat in enumerate(data["categories"]):
@@ -116,7 +116,7 @@ for ic, cat in enumerate(data["categories"]):
     cat_feature_end = float("-inf")
 
     for isc, subcat in enumerate(cat["subcategories"]):
-        subcat_id = int(cat["Row ID"].split(".")[1])
+        subcat_id = int(subcat["Row ID"].split(".")[1])
         row_id += 1
         cur_subcat_row_id = row_id
         print(f"Working on row {row_id} - {subcat['Feature Name']}")
@@ -129,8 +129,6 @@ for ic, cat in enumerate(data["categories"]):
             row_id += 1
             feature_name = feature["Feature Name"]
             print(f"Working on row {row_id} - {feature_name}")
-            feature_start = min(feature_start, row_id)
-            feature_end = max(feature_end, row_id)
             cat_feature_start = min(cat_feature_start, row_id)
             cat_feature_end = max(cat_feature_end, row_id)
             subcat_feature_start = min(subcat_feature_start, row_id)
@@ -139,6 +137,8 @@ for ic, cat in enumerate(data["categories"]):
             if feature_name == "Overall Score":
                 # Save the address of "Overall Score" feature
                 overall_score_row_index = row_id
+            if feature["Row ID"] == "1.1.1":
+                feature_start = row_id
             flat_data.append(feature)
 
         formula_details.append({
@@ -146,15 +146,17 @@ for ic, cat in enumerate(data["categories"]):
             "lower_bound": subcat_feature_start,
             "upper_bound": subcat_feature_end
         })
+        grouping_details.append((cur_subcat_row_id, row_id))
     formula_details.append({
         "row_index": cur_cat_row_id - 2,
         "lower_bound": cat_feature_start,
         "upper_bound": cat_feature_end
     })
+    grouping_details.append((cur_cat_row_id, row_id))
 formula_details.append({
-    "row_index": row_id - 2,
+    "row_index": overall_score_row_index - 2,
     "lower_bound": feature_start,
-    "upper_bound": feature_end
+    "upper_bound": row_id
 })
 
 for fd in formula_details:
@@ -216,12 +218,10 @@ current_sheet.format("A:ZZ", {"wrapStrategy": "CLIP"})
 sleep(5)
 
 # Group them
-for fd in formula_details:
-    lb = fd["lower_bound"]
-    ub = fd["upper_bound"]
-    print(f'Grouping from {lb} to {ub}')
-    current_sheet.add_dimension_group_rows(lb, ub)
-    sleep(0.5)
+for gd in grouping_details:
+    print(f'Grouping from {gd[0]} to {gd[1]}')
+    current_sheet.add_dimension_group_rows(gd[0], gd[1])
+    sleep(1)
 
 # Color categories and subcategories, and mark the % rows as PercentNumberFormat
 body_requests = [{
