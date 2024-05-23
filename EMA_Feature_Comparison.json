@@ -415,8 +415,8 @@
                             "m-Path - Notes": "",
                             "MetricWire - Score": "Supported",
                             "MetricWire - Notes": "",
-                            "Movisens - Score": "WIP Ask Mojtaba",
-                            "Movisens - Notes": ""
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": "WIP Ask Mojtaba"
                         },
                         {
                             "Row ID": "1.4.7",
@@ -1388,7 +1388,7 @@
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
                             "MetricWire - Score": "Not Supported",
-                            "MetricWire - Notes": "MHK",
+                            "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
                         },
@@ -1587,8 +1587,8 @@
                             "m-Path - Notes": "",
                             "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
-                            "Movisens - Score": "WIP - Ask Mojtaba",
-                            "Movisens - Notes": ""
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": "WIP Ask Mojtaba"
                         },
                         {
                             "Row ID": "3.4.2",
@@ -1599,8 +1599,8 @@
                             "m-Path - Notes": "m-Path does not define an study as seen in other platforms.",
                             "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
-                            "Movisens - Score": "WIP - Ask Mojtaba",
-                            "Movisens - Notes": ""
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": "WIP Ask Mojtaba"
                         },
                         {
                             "Row ID": "3.4.3",
@@ -1611,8 +1611,8 @@
                             "m-Path - Notes": "",
                             "MetricWire - Score": "Supported",
                             "MetricWire - Notes": "",
-                            "Movisens - Score": "WIP - Ask Mojtaba",
-                            "Movisens - Notes": ""
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": "WIP Ask Mojtaba"
                         }
                     ]
                 }
@@ -3732,7 +3732,7 @@
             "m-Path - Score": "",
             "m-Path - Notes": "",
             "MetricWire - Score": "",
-            "MetricWire - Notes": "XXX Put the comments about sensors here too.",
+            "MetricWire - Notes": "Sensor data in MW is very weakly documented. The content is limited to a single page under `Frequently Asked Questions` section. So the information here may be inaccurate.",
             "Movisens - Score": "",
             "Movisens - Notes": "",
             "subcategories": [
