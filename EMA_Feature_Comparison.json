@@ -1045,7 +1045,7 @@
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
-                        }
+                        },
                         {
                             "Row ID": "2.1.7",
                             "Feature Name": "Allow researchers to configure what notifications they want to receive and through what medium.",
@@ -1059,7 +1059,7 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "2.1.7",
+                            "Row ID": "2.1.8",
                             "Feature Name": "Sending notifications before or after a certain event",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -1071,7 +1071,7 @@
                             "Movisens - Notes": "Via \"Alarm\" sampling node."
                         },
                         {
-                            "Row ID": "2.1.8",
+                            "Row ID": "2.1.9",
                             "Feature Name": "Piping study variables in the notification content",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
