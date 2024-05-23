@@ -1,3 +1,7 @@
+# TODO:
+# 1. If value of a "Score" is anything other than "Supported", "Not Supported",
+#   and "Partial Support", raise an exception.
+# 2. Create a tool to set the value of IDs. 
 import json
 import gspread
 from time import sleep
