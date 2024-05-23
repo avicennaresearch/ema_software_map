@@ -55,7 +55,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Commercial\nUniversity Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "",
+                            "MetricWire - Score": "Private Commercial",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "",
                             "Movisens - Notes": ""
@@ -67,7 +67,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Belgium",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "",
+                            "MetricWire - Score": "Canada",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Germany",
                             "Movisens - Notes": ""
@@ -77,11 +77,11 @@
                             "Feature Name": "Cost Structure",
                             "Avicenna (Ethica) - Score": "Not Public\nDetails here",
                             "Avicenna (Ethica) - Notes": "",
-                            "m-Path - Score": "Not Public\nDetails here",
+                            "m-Path - Score": "Not Public\nDetails here: https://m-path.io/manual/article-categories/subscription-billing/",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "",
+                            "MetricWire - Score": "Not Public",
                             "MetricWire - Notes": "",
-                            "Movisens - Score": "Credit-Based\nDetails: https://docs.movisens.com/movisensXS/faq/#credits (also, the dashboard has a Billing page)\nAlso, you can request quote for features like Analysis Dashboard for XS.",
+                            "Movisens - Score": "Credit-Based\nDetails: https://docs.movisens.com/movisensXS/faq/#credits\n(also, the dashboard has a Billing page)\nAlso, you can request quote for features like Analysis Dashboard for XS.",
                             "Movisens - Notes": ""
                         },
                         {
@@ -91,7 +91,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Yes",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "",
+                            "MetricWire - Score": "No\nLast Update 2022-11-08",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "No",
                             "Movisens - Notes": "Based on their News (https://www.movisens.com/en/news/) and Recent Changes (https://docs.movisens.com/movisensXS/recent_changes)."
@@ -103,7 +103,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Closed-Source",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "",
+                            "MetricWire - Score": "Closed-Source",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Closed-Source",
                             "Movisens - Notes": ""
@@ -115,7 +115,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Yes",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "",
+                            "MetricWire - Score": "No",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Yes",
                             "Movisens - Notes": ""
@@ -127,7 +127,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Yes",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "",
+                            "MetricWire - Score": "Yes",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Yes",
                             "Movisens - Notes": ""
@@ -139,7 +139,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "",
+                            "MetricWire - Score": "No",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "No",
                             "Movisens - Notes": "Based on their News (https://www.movisens.com/en/news/) and Recent Changes (https://docs.movisens.com/movisensXS/recent_changes)."
@@ -151,7 +151,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "",
+                            "MetricWire - Score": "0",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "",
                             "Movisens - Notes": ""
@@ -210,18 +210,6 @@
                         },
                         {
                             "Row ID": "1.1.2",
-                            "Feature Name": "Workspace to manage and organize multiple studies",
-                            "Avicenna (Ethica) - Score": "Not Supported",
-                            "Avicenna (Ethica) - Notes": "",
-                            "m-Path - Score": "Not Supported",
-                            "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
-                            "MetricWire - Notes": "",
-                            "Movisens - Score": "Partial Support",
-                            "Movisens - Notes": "You'll have one organization and for each organization, you can have multiple users. You can define permissions of those users in each study of that organization."
-                        },
-                        {
-                            "Row ID": "1.1.3",
                             "Feature Name": "Template study",
                             "Avicenna (Ethica) - Score": "Not Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -233,7 +221,7 @@
                             "Movisens - Notes": "3 sample studies"
                         },
                         {
-                            "Row ID": "1.1.4",
+                            "Row ID": "1.1.3",
                             "Feature Name": "Publicly share study templates with the community",
                             "Avicenna (Ethica) - Score": "Not Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -245,13 +233,25 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "1.1.5",
+                            "Row ID": "1.1.4",
                             "Feature Name": "Pair researcher's device for testing study flow",
                             "Avicenna (Ethica) - Score": "Not Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Supported",
                             "m-Path - Notes": "",
                             "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": ""
+                        },
+                        {
+                            "Row ID": "1.1.5",
+                            "Feature Name": "Support for duplicating a study",
+                            "Avicenna (Ethica) - Score": "Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
@@ -315,7 +315,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
@@ -327,7 +327,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
@@ -353,8 +353,8 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Not Supported",
-                            "MetricWire - Notes": "",
+                            "MetricWire - Score": "Supported",
+                            "MetricWire - Notes": "MW uses URL for public enrollment.",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
                         },
@@ -389,7 +389,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Score": "Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
@@ -408,14 +408,14 @@
                         },
                         {
                             "Row ID": "1.4.6",
-                            "Feature Name": "Interface to manage invited participants",
-                            "Avicenna (Ethica) - Score": "Supported",
+                            "Feature Name": "Allow participants to see studies they are invited to, but not enrolled yet, via the app.",
+                            "Avicenna (Ethica) - Score": "Not Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
                             "MetricWire - Score": "Supported",
                             "MetricWire - Notes": "",
-                            "Movisens - Score": "Supported",
+                            "Movisens - Score": "WIP Ask Mojtaba",
                             "Movisens - Notes": ""
                         },
                         {
@@ -425,8 +425,8 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
-                            "MetricWire - Notes": "",
+                            "MetricWire - Score": "Partial Support",
+                            "MetricWire - Notes": "When participant is invited, an email is sent to them. But there is no mechanism to send a follow up reminder.",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
                         }
@@ -463,7 +463,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
@@ -475,7 +475,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
@@ -487,7 +487,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
@@ -499,7 +499,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Supported",
                             "Movisens - Notes": "After they're coupled/joined, you can only change the end time. But before that, you can modify both start and end times."
@@ -511,7 +511,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
@@ -780,7 +780,7 @@
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
-                            "m-Path - Notes": "",
+                            "m-Path - Notes": "While m-Path manual talks about consent in detail, there is no `Consent` feature in the app, and the consent process is implemented by using surveys. Researchers can add one- or multiple-page surveys, where each question contains one page of the consent, and then they can use branching features of the survey to include or exclude participants in the study.",
                             "MetricWire - Score": "Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Supported",
@@ -792,7 +792,7 @@
                             "Avicenna (Ethica) - Score": "Not Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
-                            "m-Path - Notes": "",
+                            "m-Path - Notes": "Please refer to Single-page Consent for details.",
                             "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
@@ -800,7 +800,7 @@
                         },
                         {
                             "Row ID": "1.8.3",
-                            "Feature Name": "Mid-Study Consent\n\nThis is referred to the process where the study protocol changes in the middle,\nand the researcher has to send an additional consent form to participants to\nsign before they continue on the modifed protocol.",
+                            "Feature Name": "Mid-Study Consent\n\nThis is referred to the process where the study protocol changes in the middle, and the researcher has to send an additional consent form to participants to sign before they continue on the modifed protocol.",
                             "Avicenna (Ethica) - Score": "Not Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
@@ -855,8 +855,8 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
-                            "MetricWire - Notes": "MW uses Block terminology for Arm.",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
                         },
@@ -867,7 +867,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
@@ -879,7 +879,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
@@ -969,7 +969,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Partial Support",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
@@ -981,7 +981,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
@@ -993,8 +993,8 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Partial Support",
-                            "MetricWire - Notes": "MW uses SMS medium for offline cases.",
+                            "MetricWire - Score": "Supported",
+                            "MetricWire - Notes": "",
                             "Movisens - Score": "Supported",
                             "Movisens - Notes": "Via \"Alarm\" sampling node."
                         },
@@ -1005,7 +1005,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Supported",
                             "Movisens - Notes": "Via \"Alarm\" sampling node and conditional sampling nodes."
@@ -1029,7 +1029,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
@@ -1041,8 +1041,8 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Partial Support",
-                            "MetricWire - Notes": "A notification is sent before an activity is triggered        ",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
                             "Movisens - Score": "Supported",
                             "Movisens - Notes": "Via \"Alarm\" sampling node."
                         },
@@ -1053,7 +1053,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
@@ -1141,8 +1141,8 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Partial Support",
-                            "MetricWire - Notes": "While it doesn't exactly show notifications status, it is recognizable that push notifications aren't being delivered. If you select \"View Activity\" for a participant, a large number of \"app_launched\" events indicate that the app is frequently being forced closed. You should tell the participant not to force close the app to avoid the system being unable to deliver survey notifications.",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
                         },
@@ -1201,7 +1201,7 @@
                             "Feature Name": "A session is released",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
-                            "m-Path - Score": "Not Supported",
+                            "m-Path - Score": "Supported",
                             "m-Path - Notes": "",
                             "MetricWire - Score": "Supported",
                             "MetricWire - Notes": "",
@@ -1268,7 +1268,7 @@
                             "m-Path - Score": "Supported",
                             "m-Path - Notes": "",
                             "MetricWire - Score": "Supported",
-                            "MetricWire - Notes": "",
+                            "MetricWire - Notes": "Via Ongoing Trigger",
                             "Movisens - Score": "Supported",
                             "Movisens - Notes": "Via \"Button Pressed\" sampling node. You can adjust label and order (the order of the buttons on the home screen). The higher the order/weight, the deeper it sinks. Also, you can set it as a one-time button. And you can define groups for buttons using Button Group (on request). Groups can be minimized."
                         },
@@ -1291,8 +1291,8 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
-                            "MetricWire - Notes": "",
+                            "MetricWire - Score": "Partial Support",
+                            "MetricWire - Notes": "Only supports once presented, daily, and random.",
                             "Movisens - Score": "Supported",
                             "Movisens - Notes": ""
                         },
@@ -1315,7 +1315,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Partial Support",
                             "Movisens - Notes": "For the random part, only the time (HH:mm) is supported. This event fires randomly a specified number of prompts in the specified time period and triggers the successor nodes. It also supports a Minimum Time Between Prompts. And you can specify the period using mutable values. The random time trigger follows a stratified randomization instead of allowing random prompts at any possible time. It takes the set time frame and divides it equally to accommodate the number of required prompts. It\u2019s within these smaller chunks that the random prompt appears, only governed by the minimum time between prompts."
@@ -1327,7 +1327,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Supported",
                             "Movisens - Notes": "They have these sampling nodes: Weekday, Date Range, Time Range, Initial (fires only once after the previous node is true), Repeated (via defined interval and as long as the previous condition stays true)"
@@ -1339,7 +1339,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Partial Support",
                             "Movisens - Notes": "Only on the time part (HH:mm) using \"Time Range\" sampling or \"Participant Time Trigger\" (on request, which allows you to repeat everday too) node."
@@ -1351,7 +1351,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Supported",
                             "Movisens - Notes": "You can define Mutable Values after a form completion and use that value as a condition in triggering another form combined with \"Immediatly\" sampling node. Also, you can use \"Delay\" sampling node to delay triggering the next form or action."
@@ -1387,8 +1387,8 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
-                            "MetricWire - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "MHK",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
                         },
@@ -1399,7 +1399,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Supported",
                             "Movisens - Notes": "On request. Called \"Nearby Devices Condition\"; a sampling node. It uses IBeacon standard. Also, it lets you specifiy Broadcast Signal (toggle), Scanning Interval, and Time Between Scans."
@@ -1432,9 +1432,9 @@
                     "features": [
                         {
                             "Row ID": "3.2.1",
-                            "Feature Name": "Simple single-line criteria",
-                            "Avicenna (Ethica) - Score": "Supported",
-                            "Avicenna (Ethica) - Notes": "",
+                            "Feature Name": "Simple single-line script",
+                            "Avicenna (Ethica) - Score": "Partial Support",
+                            "Avicenna (Ethica) - Notes": "Avicenna only supports single line criteria, not calculated values.",
                             "m-Path - Score": "Supported",
                             "m-Path - Notes": "",
                             "MetricWire - Score": "Supported",
@@ -1485,7 +1485,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Supported",
                             "Movisens - Notes": "For sections/questions, it's called \"Visibility Rule\". For sampling, it's a Check Mutable Value (on request)."
@@ -1511,8 +1511,8 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
-                            "MetricWire - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "Based on the screenshots, it seems MW has an interface that allows researchers to see what sessions a given trigger may generate, but there is no interface to show all sessions assigned to a given participant.",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
                         },
@@ -1523,7 +1523,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
@@ -1535,7 +1535,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
@@ -1547,7 +1547,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
@@ -1562,6 +1562,56 @@
                             "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": ""
+                        }
+                    ]
+                },
+                {
+                    "Row ID": "3.4",
+                    "Feature Name": "Activity Management",
+                    "Avicenna (Ethica) - Score": "",
+                    "Avicenna (Ethica) - Notes": "",
+                    "m-Path - Score": "",
+                    "m-Path - Notes": "",
+                    "MetricWire - Score": "",
+                    "MetricWire - Notes": "",
+                    "Movisens - Score": "",
+                    "Movisens - Notes": "",
+                    "features": [
+                        {
+                            "Row ID": "3.4.1",
+                            "Feature Name": "Duplicate an activity",
+                            "Avicenna (Ethica) - Score": "Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "WIP - Ask Mojtaba",
+                            "Movisens - Notes": ""
+                        },
+                        {
+                            "Row ID": "3.4.2",
+                            "Feature Name": "Move an activity between studies",
+                            "Avicenna (Ethica) - Score": "Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "m-Path does not define an study as seen in other platforms.",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "WIP - Ask Mojtaba",
+                            "Movisens - Notes": ""
+                        },
+                        {
+                            "Row ID": "3.4.3",
+                            "Feature Name": "Delete an activity",
+                            "Avicenna (Ethica) - Score": "Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "WIP - Ask Mojtaba",
                             "Movisens - Notes": ""
                         }
                     ]
@@ -1721,14 +1771,14 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Not Supported",
-                            "MetricWire - Notes": "",
+                            "MetricWire - Score": "Partial Support",
+                            "MetricWire - Notes": "Offers limited options for formatting question content.",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
                         },
                         {
                             "Row ID": "4.2.2",
-                            "Feature Name": "Include audio in question content ",
+                            "Feature Name": "Include audio in question content",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Supported",
@@ -1740,7 +1790,7 @@
                         },
                         {
                             "Row ID": "4.2.3",
-                            "Feature Name": "Include image in question content ",
+                            "Feature Name": "Include image in question content",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Supported",
@@ -1812,7 +1862,7 @@
                         },
                         {
                             "Row ID": "4.2.9",
-                            "Feature Name": "Exclude / Include an item in the survey",
+                            "Feature Name": "Exclude / Include a question in the survey",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Supported",
@@ -1829,8 +1879,8 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
-                            "MetricWire - Notes": "",
+                            "MetricWire - Score": "Partial Support",
+                            "MetricWire - Notes": "This is only possible for questions from the current survey.",
                             "Movisens - Score": "Supported",
                             "Movisens - Notes": "Via \"Mutable Values\" and \"Display Mutable Value\" form item."
                         },
@@ -1869,6 +1919,18 @@
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Supported",
                             "Movisens - Notes": "In some item formats (e.g. Visual Analog Scale) a default value is present. In this case the required field will be ignored."
+                        },
+                        {
+                            "Row ID": "4.2.14",
+                            "Feature Name": "Allow researchs to put private comments on specific questions",
+                            "Avicenna (Ethica) - Score": "Not Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": "WIP - Mojtaba Check"
                         }
                     ]
                 },
@@ -1898,7 +1960,7 @@
                         },
                         {
                             "Row ID": "4.3.2",
-                            "Feature Name": "Ability to show participant's responses as part of the survey flow\n\nThis allows the survey to have a \"question\", or \"item\", that presents\n participant's past responses. For example, after the 5th question of\nthe survey, the researcher can show a list of all responses\nparticipant has provided to a previous question.",
+                            "Feature Name": "Ability to show participant's responses in textual format as part of the survey flow.",
                             "Avicenna (Ethica) - Score": "Not Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Supported",
@@ -1910,7 +1972,7 @@
                         },
                         {
                             "Row ID": "4.3.3",
-                            "Feature Name": "Ability to show visualizations of participant's past responses as part of the survey flow",
+                            "Feature Name": "Ability to show visualizations of participant's past responses as part of the survey flow.",
                             "Avicenna (Ethica) - Score": "Not Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Supported",
@@ -1940,7 +2002,7 @@
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
                             "MetricWire - Score": "Partial Support",
-                            "MetricWire - Notes": "",
+                            "MetricWire - Notes": "MW offers separate questions for email and phone number, which is the subset of enforcing a format on a text-based question.",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
                         },
@@ -2018,6 +2080,18 @@
                         },
                         {
                             "Row ID": "4.3.12",
+                            "Feature Name": "Multiple-Answer Question - Minimum # of choices",
+                            "Avicenna (Ethica) - Score": "Not Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": ""
+                        },
+                        {
+                            "Row ID": "4.3.13",
                             "Feature Name": "Multiple-Answer Question - Maximum # of choices",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -2029,7 +2103,7 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "4.3.13",
+                            "Row ID": "4.3.14",
                             "Feature Name": "Multiple-Answer Question - Exclusive choices",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -2041,7 +2115,7 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "4.3.14",
+                            "Row ID": "4.3.15",
                             "Feature Name": "Multiple-Answer Question - Using images as answer option",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -2053,7 +2127,7 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "4.3.15",
+                            "Row ID": "4.3.16",
                             "Feature Name": "Single-Answer Question",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -2065,19 +2139,19 @@
                             "Movisens - Notes": "Called \"Select One\"."
                         },
                         {
-                            "Row ID": "4.3.16",
+                            "Row ID": "4.3.17",
                             "Feature Name": "Single-Answer Question - Support different layouts (button, radio-button, dropdown)",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
                             "MetricWire - Score": "Not Supported",
-                            "MetricWire - Notes": "It's just a dropdown in MW for a single answer.",
+                            "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "4.3.17",
+                            "Row ID": "4.3.18",
                             "Feature Name": "Single-Answer Question - Using images as answer option",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -2089,7 +2163,7 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "4.3.18",
+                            "Row ID": "4.3.19",
                             "Feature Name": "Number questions",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -2101,19 +2175,19 @@
                             "Movisens - Notes": "They have 2 question types for this: Number and Decimal."
                         },
                         {
-                            "Row ID": "4.3.19",
+                            "Row ID": "4.3.20",
                             "Feature Name": "Number questions - Minimum & Maximum",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Supported",
                             "Movisens - Notes": "On request and via \"Number Picker\" and not the Number or Decimal."
                         },
                         {
-                            "Row ID": "4.3.20",
+                            "Row ID": "4.3.21",
                             "Feature Name": "Number questions - customized interface for length",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -2125,7 +2199,7 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "4.3.21",
+                            "Row ID": "4.3.22",
                             "Feature Name": "Number questions - customized interface for weight",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -2137,7 +2211,7 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "4.3.22",
+                            "Row ID": "4.3.23",
                             "Feature Name": "Visual Analog Scale (VAS)",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -2149,55 +2223,55 @@
                             "Movisens - Notes": "Called \"Visual Analog\"."
                         },
                         {
-                            "Row ID": "4.3.23",
+                            "Row ID": "4.3.24",
                             "Feature Name": "VAS - Vertical slider",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "4.3.24",
+                            "Row ID": "4.3.25",
                             "Feature Name": "VAS - Minimum & Maximum",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Supported",
                             "Movisens - Notes": "On request. Called \"Left and Right Values\"."
                         },
                         {
-                            "Row ID": "4.3.25",
+                            "Row ID": "4.3.26",
                             "Feature Name": "VAS - increase & decrease step",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "4.3.26",
+                            "Row ID": "4.3.27",
                             "Feature Name": "VAS - Text for left & right anchor",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Supported",
                             "Movisens - Notes": "Also, they have a Neutral anchor."
                         },
                         {
-                            "Row ID": "4.3.27",
+                            "Row ID": "4.3.28",
                             "Feature Name": "VAS - image for left & right anchor",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -2209,7 +2283,7 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "4.3.28",
+                            "Row ID": "4.3.29",
                             "Feature Name": "VAS - show specific text based on selection",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -2221,7 +2295,7 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "4.3.29",
+                            "Row ID": "4.3.30",
                             "Feature Name": "VAS - show specific image based on selection",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -2233,7 +2307,7 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "4.3.30",
+                            "Row ID": "4.3.31",
                             "Feature Name": "VAS - Control appearance of slider thumb",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -2245,10 +2319,10 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "4.3.31",
+                            "Row ID": "4.3.32",
                             "Feature Name": "VAS - Display participant's last answer to the question on the question's interface.",
                             "Avicenna (Ethica) - Score": "Supported",
-                            "Avicenna (Ethica) - Notes": "You can use Piping to get the response to the last question and display it as part of the survey content.",
+                            "Avicenna (Ethica) - Notes": "You can use Piping to get the last response to this question and display it as part of the question's content.",
                             "m-Path - Score": "Supported",
                             "m-Path - Notes": "",
                             "MetricWire - Score": "Not Supported",
@@ -2257,7 +2331,7 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "4.3.32",
+                            "Row ID": "4.3.33",
                             "Feature Name": "Calendar",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -2269,7 +2343,7 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "4.3.33",
+                            "Row ID": "4.3.34",
                             "Feature Name": "Calendar - Support time entry",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -2281,7 +2355,7 @@
                             "Movisens - Notes": "As a separate form item called \"Time\"."
                         },
                         {
-                            "Row ID": "4.3.34",
+                            "Row ID": "4.3.35",
                             "Feature Name": "Calendar - Support date entry",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -2293,32 +2367,20 @@
                             "Movisens - Notes": "As a separate form item called \"Date\"."
                         },
                         {
-                            "Row ID": "4.3.35",
+                            "Row ID": "4.3.36",
                             "Feature Name": "Calendar - Support date & time entry",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
-                            "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
-                            "MetricWire - Notes": "",
+                            "m-Path - Notes": "It must be separate questions",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "It must be separate questions",
                             "Movisens - Score": "Supported",
                             "Movisens - Notes": "As a separate form item called \"Date & TIme\"."
                         },
                         {
-                            "Row ID": "4.3.36",
-                            "Feature Name": "Calendar - Support interval entry (duration, e.g. 15 minutes, 1h10m, etc.)",
-                            "Avicenna (Ethica) - Score": "Supported",
-                            "Avicenna (Ethica) - Notes": "",
-                            "m-Path - Score": "Not Supported",
-                            "m-Path - Notes": "",
-                            "MetricWire - Score": "Not Supported",
-                            "MetricWire - Notes": "",
-                            "Movisens - Score": "Not Supported",
-                            "Movisens - Notes": "Not supported as single question. We can achieve that via 2 questions inside a section, but the responses won't be durations; they'll be periods."
-                        },
-                        {
                             "Row ID": "4.3.37",
-                            "Feature Name": "Calendar - Specify minimum and maximum value",
+                            "Feature Name": "Calendar - Support interval entry (duration, e.g. 15 minutes, 1h10m, etc.)",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
@@ -2330,78 +2392,90 @@
                         },
                         {
                             "Row ID": "4.3.38",
+                            "Feature Name": "Calendar - Specify minimum and maximum value",
+                            "Avicenna (Ethica) - Score": "Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": ""
+                        },
+                        {
+                            "Row ID": "4.3.39",
                             "Feature Name": "Image question",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Supported",
                             "m-Path - Notes": "",
                             "MetricWire - Score": "Supported",
-                            "MetricWire - Notes": "",
+                            "MetricWire - Notes": "It seems this is achieved via `Media Question`, but the description is unclear.",
                             "Movisens - Score": "Supported",
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "4.3.39",
+                            "Row ID": "4.3.40",
                             "Feature Name": "Image question - Take photo vs. select from gallery",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Partial Support",
                             "Movisens - Notes": "You can't have both options in one question. They have 2 form items: \"Choose Picture\" (on request) and \"Take Picture\""
                         },
                         {
-                            "Row ID": "4.3.40",
+                            "Row ID": "4.3.41",
                             "Feature Name": "Audio question",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Supported",
                             "m-Path - Notes": "",
                             "MetricWire - Score": "Supported",
-                            "MetricWire - Notes": "",
+                            "MetricWire - Notes": "It seems this is achieved via `Media Question`, but the description is unclear.",
                             "Movisens - Score": "Supported",
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "4.3.41",
+                            "Row ID": "4.3.42",
                             "Feature Name": "Audio question - Record vs. select from device",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Partial Support",
                             "Movisens - Notes": "Only recording is supported."
                         },
                         {
-                            "Row ID": "4.3.42",
+                            "Row ID": "4.3.43",
                             "Feature Name": "Video question",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Supported",
                             "m-Path - Notes": "",
                             "MetricWire - Score": "Supported",
-                            "MetricWire - Notes": "",
+                            "MetricWire - Notes": "It seems this is achieved via `Media Question`, but the description is unclear.",
                             "Movisens - Score": "Supported",
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "4.3.43",
+                            "Row ID": "4.3.44",
                             "Feature Name": "Video question - Record vs. select from device",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Partial Support",
                             "Movisens - Notes": "Only recording is supported."
                         },
                         {
-                            "Row ID": "4.3.44",
+                            "Row ID": "4.3.45",
                             "Feature Name": "Body parts question",
                             "Avicenna (Ethica) - Score": "Not Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -2413,7 +2487,7 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "4.3.45",
+                            "Row ID": "4.3.46",
                             "Feature Name": "Order items question",
                             "Avicenna (Ethica) - Score": "Not Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -2425,7 +2499,7 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "4.3.46",
+                            "Row ID": "4.3.47",
                             "Feature Name": "Smiley",
                             "Avicenna (Ethica) - Score": "Not Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -2437,7 +2511,7 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "4.3.47",
+                            "Row ID": "4.3.48",
                             "Feature Name": "Continuous line question",
                             "Avicenna (Ethica) - Score": "Not Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -2449,7 +2523,7 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "4.3.48",
+                            "Row ID": "4.3.49",
                             "Feature Name": "Map question",
                             "Avicenna (Ethica) - Score": "Not Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -2458,10 +2532,10 @@
                             "MetricWire - Score": "Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Partial Support",
-                            "Movisens - Notes": "Called \"GeoPoint\" and kinda forces you to keep the current location selected by the GPS/map."
+                            "Movisens - Notes": "Called \"GeoPoint\" and partially forces the participant to keep the current location selected by the GPS/map."
                         },
                         {
-                            "Row ID": "4.3.49",
+                            "Row ID": "4.3.50",
                             "Feature Name": "Barcode scanning",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -2473,7 +2547,7 @@
                             "Movisens - Notes": "You can't enter the code manually."
                         },
                         {
-                            "Row ID": "4.3.50",
+                            "Row ID": "4.3.51",
                             "Feature Name": "Matrix question",
                             "Avicenna (Ethica) - Score": "Not Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -2485,7 +2559,7 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "4.3.51",
+                            "Row ID": "4.3.52",
                             "Feature Name": "Likert questions",
                             "Avicenna (Ethica) - Score": "Not Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -2497,7 +2571,7 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "4.3.52",
+                            "Row ID": "4.3.53",
                             "Feature Name": "Calculated fields",
                             "Avicenna (Ethica) - Score": "Not Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -2554,7 +2628,7 @@
                             "m-Path - Score": "Supported",
                             "m-Path - Notes": "",
                             "MetricWire - Score": "Supported",
-                            "MetricWire - Notes": "Called \"Groups\"",
+                            "MetricWire - Notes": "MW does not have sections. Instead it allows grouping questions arbitrarily, as opposed to putting continuous questions in a section. We consider that as an alternative way of implementing sections.",
                             "Movisens - Score": "Supported",
                             "Movisens - Notes": "Called \"Multi-Item Screen\"."
                         },
@@ -2566,7 +2640,7 @@
                             "m-Path - Score": "Supported",
                             "m-Path - Notes": "",
                             "MetricWire - Score": "Supported",
-                            "MetricWire - Notes": "",
+                            "MetricWire - Notes": "It can `Randomly Trigger a Single Group on Phone`.",
                             "Movisens - Score": "Supported",
                             "Movisens - Notes": "You should enable/disable for each form TL separately."
                         },
@@ -2577,7 +2651,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Partial Support",
                             "Movisens - Notes": "You should enable/disable for each form TL separately. Questions that don't belong to any section (root questions) will be randomized. You can see such form as a form with one section."
@@ -2596,30 +2670,42 @@
                         },
                         {
                             "Row ID": "4.4.7",
+                            "Feature Name": "Anchor certain answers so they are not moved when randomization is performed.",
+                            "Avicenna (Ethica) - Score": "Not Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": ""
+                        },
+                        {
+                            "Row ID": "4.4.8",
                             "Feature Name": "Randomly select a subset of sections",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
-                            "MetricWire - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "Closest option to this is to randomly select 1 group and present that.",
                             "Movisens - Score": "Partial Support",
                             "Movisens - Notes": "On request. You should enable/disable for each form TL separately. You can show only the given count of all items in a stratified randomized order (if randomized is activated)."
                         },
                         {
-                            "Row ID": "4.4.8",
+                            "Row ID": "4.4.9",
                             "Feature Name": "Randomly select a subset of questions within a section",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Partial Support",
                             "Movisens - Notes": "On request. You should enable/disable for each form TL separately. You can show only the given count of all items in a stratified randomized order (if randomized is activated). Questions that don't belong to any section (root questions) will be randomly selected. You can see such form as a form with one section."
                         },
                         {
-                            "Row ID": "4.4.9",
+                            "Row ID": "4.4.10",
                             "Feature Name": "Randomly select a subset of answers of a question",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -2631,7 +2717,7 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "4.4.10",
+                            "Row ID": "4.4.11",
                             "Feature Name": "Show one question per page or one section per page",
                             "Avicenna (Ethica) - Score": "Not Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -2643,31 +2729,31 @@
                             "Movisens - Notes": "You can structure your form on the root level by putting questions beside the sections."
                         },
                         {
-                            "Row ID": "4.4.11",
+                            "Row ID": "4.4.12",
                             "Feature Name": "Define and customize divider between questions (when an entire section is displayed)",
                             "Avicenna (Ethica) - Score": "Not Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Supported",
                             "Movisens - Notes": "You can use Display Text with \"________________\" (or any other text) as the content."
                         },
                         {
-                            "Row ID": "4.4.12",
+                            "Row ID": "4.4.13",
                             "Feature Name": "Disable/Enable review and edit answers upon completion",
                             "Avicenna (Ethica) - Score": "Not Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
-                            "MetricWire - Notes": "",
+                            "MetricWire - Score": "Partial Support",
+                            "MetricWire - Notes": "Supports reviewing responses but does not support editing them.",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "4.4.13",
+                            "Row ID": "4.4.14",
                             "Feature Name": "Loop on a section",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -2688,7 +2774,7 @@
                     "m-Path - Score": "",
                     "m-Path - Notes": "",
                     "MetricWire - Score": "",
-                    "MetricWire - Notes": "",
+                    "MetricWire - Notes": "Branching and Skip Patterns are very poorly documented in MetricWire.",
                     "Movisens - Score": "",
                     "Movisens - Notes": "",
                     "features": [
@@ -2712,7 +2798,7 @@
                             "m-Path - Score": "Supported",
                             "m-Path - Notes": "",
                             "MetricWire - Score": "Supported",
-                            "MetricWire - Notes": "",
+                            "MetricWire - Notes": "This can be done using Enable/Disable Question.",
                             "Movisens - Score": "Supported",
                             "Movisens - Notes": ""
                         },
@@ -2723,7 +2809,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "",
                             "Movisens - Notes": "WIP: Waiting for the comment on the feature name to be resolved."
@@ -2747,7 +2833,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
@@ -2873,7 +2959,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Score": "Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Supported",
                             "Movisens - Notes": ""
@@ -3176,7 +3262,7 @@
                         },
                         {
                             "Row ID": "5.2.5",
-                            "Feature Name": "Generate statistics on responses to a survey within a group of participants\n\nUsing this option, the researcher can divide participants into a few cohorts\n(e.g. by labeling them) and then calculate certain statistics on each cohort,\nfor example five-number summary of all responses provided to a certain\nquestion, and show that to all participants within that cohort.",
+                            "Feature Name": "Generate statistics on responses to a survey within a group of participants\n\nUsing this option, the researcher can divide participants into a few cohorts (e.g. by labeling them) and then calculate certain statistics on each cohort, for example five-number summary of all responses provided to a certain question, and show that to all participants within that cohort.",
                             "Avicenna (Ethica) - Score": "Not Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Supported",
@@ -3309,8 +3395,8 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Partial Support",
-                            "MetricWire - Notes": "In MW researchers can have permission levels not specific roles.\t",
+                            "MetricWire - Score": "Not Support",
+                            "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
                         },
@@ -3321,8 +3407,8 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Not Supported",
-                            "MetricWire - Notes": "",
+                            "MetricWire - Score": "Supported",
+                            "MetricWire - Notes": "While MW does not support roles, you can specify per researcher what actions they can take.",
                             "Movisens - Score": "Supported",
                             "Movisens - Notes": "WIP: Only one permission: edit study"
                         },
@@ -3333,8 +3419,8 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Not Supported",
-                            "MetricWire - Notes": "",
+                            "MetricWire - Score": "Supported",
+                            "MetricWire - Notes": "While MW does not support roles, you can specify per researcher what actions they can take.",
                             "Movisens - Score": "Supported",
                             "Movisens - Notes": "WIP: Only one permission: read study"
                         },
@@ -3357,7 +3443,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
@@ -3381,7 +3467,7 @@
                             "Feature Name": "End-to-end encryption",
                             "Avicenna (Ethica) - Score": "Not Supported",
                             "Avicenna (Ethica) - Notes": "",
-                            "m-Path - Score": "Supported",
+                            "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
                             "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
@@ -3393,9 +3479,9 @@
                             "Feature Name": "In-transit encryption",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
-                            "m-Path - Score": "",
+                            "m-Path - Score": "Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Score": "Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Supported",
                             "Movisens - Notes": ""
@@ -3529,7 +3615,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
@@ -3562,10 +3648,10 @@
                         },
                         {
                             "Row ID": "7.4.2",
-                            "Feature Name": "Well-defined Support ",
+                            "Feature Name": "Well-defined Support",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
-                            "m-Path - Score": "Not Supported",
+                            "m-Path - Score": "Supported",
                             "m-Path - Notes": "",
                             "MetricWire - Score": "Supported",
                             "MetricWire - Notes": "",
@@ -3576,7 +3662,7 @@
                             "Row ID": "7.4.3",
                             "Feature Name": "Clear workflow for issue escalation",
                             "Avicenna (Ethica) - Score": "Supported",
-                            "Avicenna (Ethica) - Notes": "",
+                            "Avicenna (Ethica) - Notes": "In each email reply, a URL is provided that researcher can click on it to escalate her issue to receive faster reply.",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
                             "MetricWire - Score": "Not Supported",
@@ -3646,7 +3732,7 @@
             "m-Path - Score": "",
             "m-Path - Notes": "",
             "MetricWire - Score": "",
-            "MetricWire - Notes": "",
+            "MetricWire - Notes": "XXX Put the comments about sensors here too.",
             "Movisens - Score": "",
             "Movisens - Notes": "",
             "subcategories": [
@@ -3688,7 +3774,7 @@
                         },
                         {
                             "Row ID": "8.1.3",
-                            "Feature Name": "Support for collecting data during custom intervals ",
+                            "Feature Name": "Support for collecting data during custom intervals",
                             "Avicenna (Ethica) - Score": "Not Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
@@ -3705,7 +3791,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Partial Support",
                             "Movisens - Notes": "For some of their data sources only. For example, for \"Nearby Devices\" you can specify \"Scanning interval\" and \"Time Between Scans\"."
@@ -4064,7 +4150,7 @@
                         },
                         {
                             "Row ID": "8.3.5",
-                            "Feature Name": "Garmin ",
+                            "Feature Name": "Garmin",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
@@ -4164,7 +4250,7 @@
                     "features": [
                         {
                             "Row ID": "9.1.1",
-                            "Feature Name": "Works offline ",
+                            "Feature Name": "Works offline",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
@@ -4205,8 +4291,8 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Partial Support",
-                            "MetricWire - Notes": "One of the limiting factors of Web Surveys is that there is only one trigger type available. Activities with Participant Portal TL are accessible in the web-based app.",
+                            "MetricWire - Score": "Supported",
+                            "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
                         },
@@ -4217,7 +4303,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Score": "Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
@@ -4241,7 +4327,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Partial Support",
                             "Movisens - Notes": "Participants can \"Finish the study\" when they pause the study. But it won't mark them as \"dropped\"."
@@ -4277,7 +4363,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
@@ -4318,7 +4404,7 @@
                     "m-Path - Score": "",
                     "m-Path - Notes": "",
                     "MetricWire - Score": "",
-                    "MetricWire - Notes": "",
+                    "MetricWire - Notes": "MW Documentation has a section called Analysis and another section called Codebook. But the content there is very vague without any screenshots, so it's hard to know what feature is offered and how that fits within their software.",
                     "Movisens - Score": "",
                     "Movisens - Notes": "",
                     "features": [
@@ -4329,7 +4415,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
@@ -4341,19 +4427,19 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": "No table is sortable even on UI."
                         },
                         {
                             "Row ID": "10.1.3",
-                            "Feature Name": "Query data of a page in the dashboard ",
+                            "Feature Name": "Query data of a page in the dashboard",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
@@ -4389,7 +4475,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
@@ -4413,7 +4499,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
@@ -4451,7 +4537,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
@@ -4466,7 +4552,7 @@
                     "m-Path - Score": "",
                     "m-Path - Notes": "",
                     "MetricWire - Score": "",
-                    "MetricWire - Notes": "",
+                    "MetricWire - Notes": "Sensor data in MW is very weakly documented. The content is limited to a single page under `Frequently Asked Questions` section. So the information here may be inaccurate.",
                     "Movisens - Score": "",
                     "Movisens - Notes": "",
                     "features": [
@@ -4515,7 +4601,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
@@ -4593,7 +4679,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Score": "Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
@@ -4655,7 +4741,7 @@
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
+                            "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Supported",
                             "Movisens - Notes": "On request as part of their InteractionDesigner (https://www.movisens.com/en/products/interactiondesigner/). Also, it seems to only support a chat-based interface."
