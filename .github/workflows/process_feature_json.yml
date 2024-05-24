@@ -2,6 +2,8 @@ name: Process Feature File
 
 on:
   push:
+    branches:
+      - main
     paths:
       - 'EMA_Feature_Comparison.json'
   workflow_dispatch:
