@@ -305,6 +305,270 @@
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
+                        },
+                        {
+                            "Row ID": "1.2.3",
+                            "Feature Name": "Arabic app interface",
+                            "Avicenna (Ethica) - Score": "Not Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Supported",
+                            "Movisens - Notes": "91%"
+                        },
+                        {
+                            "Row ID": "1.2.4",
+                            "Feature Name": "Catalan app interface",
+                            "Avicenna (Ethica) - Score": "Partial Support",
+                            "Avicenna (Ethica) - Notes": "56.9%",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": ""
+                        },
+                        {
+                            "Row ID": "1.2.5",
+                            "Feature Name": "Chinese app interface",
+                            "Avicenna (Ethica) - Score": "Supported",
+                            "Avicenna (Ethica) - Notes": "98%, Simplified Chinese",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Partial Support",
+                            "Movisens - Notes": "28%"
+                        },
+                        {
+                            "Row ID": "1.2.6",
+                            "Feature Name": "Dutch app interface",
+                            "Avicenna (Ethica) - Score": "Partial Support",
+                            "Avicenna (Ethica) - Notes": "34.5%",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Supported",
+                            "Movisens - Notes": "88%"
+                        },
+                        {
+                            "Row ID": "1.2.7",
+                            "Feature Name": "English app interface",
+                            "Avicenna (Ethica) - Score": "Supported",
+                            "Avicenna (Ethica) - Notes": "99.7%",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Supported",
+                            "Movisens - Notes": "100%"
+                        },
+                        {
+                            "Row ID": "1.2.8",
+                            "Feature Name": "Estonian app interface",
+                            "Avicenna (Ethica) - Score": "Not Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Partial Support",
+                            "Movisens - Notes": "75%"
+                        },
+                        {
+                            "Row ID": "1.2.9",
+                            "Feature Name": "French app interface",
+                            "Avicenna (Ethica) - Score": "Partial Support",
+                            "Avicenna (Ethica) - Notes": "37.4%",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Supported",
+                            "Movisens - Notes": "86%"
+                        },
+                        {
+                            "Row ID": "1.2.10",
+                            "Feature Name": "German app interface",
+                            "Avicenna (Ethica) - Score": "Partial Support",
+                            "Avicenna (Ethica) - Notes": "36.1%",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Supported",
+                            "Movisens - Notes": "100%"
+                        },
+                        {
+                            "Row ID": "1.2.11",
+                            "Feature Name": "Indonesian app interface",
+                            "Avicenna (Ethica) - Score": "Not Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": "9%"
+                        },
+                        {
+                            "Row ID": "1.2.12",
+                            "Feature Name": "Italian app interface",
+                            "Avicenna (Ethica) - Score": "Partial Support",
+                            "Avicenna (Ethica) - Notes": "34.6%",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Supported",
+                            "Movisens - Notes": "86%"
+                        },
+                        {
+                            "Row ID": "1.2.13",
+                            "Feature Name": "Lithuanian app interface",
+                            "Avicenna (Ethica) - Score": "Not Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": "9%"
+                        },
+                        {
+                            "Row ID": "1.2.14",
+                            "Feature Name": "Norwegian app interface",
+                            "Avicenna (Ethica) - Score": "Not Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Supported",
+                            "Movisens - Notes": "88%"
+                        },
+                        {
+                            "Row ID": "1.2.15",
+                            "Feature Name": "Persian app interface",
+                            "Avicenna (Ethica) - Score": "Partial Support",
+                            "Avicenna (Ethica) - Notes": "69%",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": ""
+                        },
+                        {
+                            "Row ID": "1.2.16",
+                            "Feature Name": "Polish app interface",
+                            "Avicenna (Ethica) - Score": "Not Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Supported",
+                            "Movisens - Notes": "86%"
+                        },
+                        {
+                            "Row ID": "1.2.17",
+                            "Feature Name": "Portuguese app interface",
+                            "Avicenna (Ethica) - Score": "Not Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Supported",
+                            "Movisens - Notes": "86%"
+                        },
+                        {
+                            "Row ID": "1.2.18",
+                            "Feature Name": "Romanian app interface",
+                            "Avicenna (Ethica) - Score": "Not Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": "9%"
+                        },
+                        {
+                            "Row ID": "1.2.19",
+                            "Feature Name": "Slovenian app interface",
+                            "Avicenna (Ethica) - Score": "Partial Support",
+                            "Avicenna (Ethica) - Notes": "57.6%",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": ""
+                        },
+                        {
+                            "Row ID": "1.2.20",
+                            "Feature Name": "Spanish app interface",
+                            "Avicenna (Ethica) - Score": "Partial Support",
+                            "Avicenna (Ethica) - Notes": "54.3%",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Supported",
+                            "Movisens - Notes": "86%"
+                        },
+                        {
+                            "Row ID": "1.2.21",
+                            "Feature Name": "Spanish Colombian app interface",
+                            "Avicenna (Ethica) - Score": "Partial Support",
+                            "Avicenna (Ethica) - Notes": "79.6%",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": ""
+                        },
+                        {
+                            "Row ID": "1.2.22",
+                            "Feature Name": "Urdu app interface",
+                            "Avicenna (Ethica) - Score": "Partial Support",
+                            "Avicenna (Ethica) - Notes": "36.1%",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": ""
+                        },
+                        {
+                            "Row ID": "1.2.23",
+                            "Feature Name": "Vietnamese app interface",
+                            "Avicenna (Ethica) - Score": "Not Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": "9%"
+                        },
+                        {
+                            "Row ID": "1.2.24",
+                            "Feature Name": "Zulu app interface",
+                            "Avicenna (Ethica) - Score": "Partial Support",
+                            "Avicenna (Ethica) - Notes": "52.7%",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": ""
                         }
                     ]
                 },
@@ -1917,8 +2181,8 @@
                             "m-Path - Notes": "",
                             "MetricWire - Score": "Supported",
                             "MetricWire - Notes": "",
-                            "Movisens - Score": "",
-                            "Movisens - Notes": "WIP: Waiting for the comment on the feature name to be resolved."
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": ""
                         },
                         {
                             "Row ID": "4.2.10",
@@ -2907,8 +3171,8 @@
                             "m-Path - Notes": "",
                             "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
-                            "Movisens - Score": "",
-                            "Movisens - Notes": "WIP: Waiting for the comment on the feature name to be resolved."
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": ""
                         },
                         {
                             "Row ID": "4.5.4",
@@ -3510,42 +3774,30 @@
                         },
                         {
                             "Row ID": "7.1.2",
-                            "Feature Name": "Control which role can interact with which action on the website",
+                            "Feature Name": "Control permissions for working with different parts of study protocol (study settings, survey definitions, etc.)",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
                             "MetricWire - Score": "Supported",
                             "MetricWire - Notes": "While MW does not support roles, you can specify per researcher what actions they can take.",
-                            "Movisens - Score": "Supported",
-                            "Movisens - Notes": "WIP: Only one permission: edit study"
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": ""
                         },
                         {
                             "Row ID": "7.1.3",
-                            "Feature Name": "Control which role can interact with which part of study metadata (participants list, study protocol, etc.)",
+                            "Feature Name": "Control permissions for working with different parts of study data (participants, survey responses, sensor data, etc.)",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
                             "MetricWire - Score": "Supported",
                             "MetricWire - Notes": "While MW does not support roles, you can specify per researcher what actions they can take.",
-                            "Movisens - Score": "Supported",
-                            "Movisens - Notes": "WIP: Only one permission: read study"
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": ""
                         },
                         {
                             "Row ID": "7.1.4",
-                            "Feature Name": "Control which role can interact with which data for a study (surveys, sensor data, cognitive tasks)",
-                            "Avicenna (Ethica) - Score": "Supported",
-                            "Avicenna (Ethica) - Notes": "",
-                            "m-Path - Score": "Not Supported",
-                            "m-Path - Notes": "",
-                            "MetricWire - Score": "Not Supported",
-                            "MetricWire - Notes": "",
-                            "Movisens - Score": "Supported",
-                            "Movisens - Notes": "WIP: Only one permission: read study"
-                        },
-                        {
-                            "Row ID": "7.1.5",
                             "Feature Name": "Different permission profiles for different study sites",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -3557,15 +3809,15 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "7.1.6",
-                            "Feature Name": "Permission levels for Full, View-Only, None.",
+                            "Row ID": "7.1.5",
+                            "Feature Name": "Permission levels for Full, View-Only, and None",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
                             "MetricWire - Score": "Supported",
                             "MetricWire - Notes": "",
-                            "Movisens - Score": "Not Supported",
+                            "Movisens - Score": "Supported",
                             "Movisens - Notes": ""
                         }
                     ]
