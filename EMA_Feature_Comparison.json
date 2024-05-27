@@ -234,18 +234,6 @@
                         },
                         {
                             "Row ID": "1.1.4",
-                            "Feature Name": "Pair researcher's device for testing study flow",
-                            "Avicenna (Ethica) - Score": "Not Supported",
-                            "Avicenna (Ethica) - Notes": "",
-                            "m-Path - Score": "Supported",
-                            "m-Path - Notes": "",
-                            "MetricWire - Score": "Not Supported",
-                            "MetricWire - Notes": "",
-                            "Movisens - Score": "Not Supported",
-                            "Movisens - Notes": ""
-                        },
-                        {
-                            "Row ID": "1.1.5",
                             "Feature Name": "Support for duplicating a study",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -257,7 +245,7 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "1.1.6",
+                            "Row ID": "1.1.5",
                             "Feature Name": "Support for deleting a study",
                             "Avicenna (Ethica) - Score": "Not Supported",
                             "Avicenna (Ethica) - Notes": "Not possible through the user interface. Must contact support.",
@@ -287,7 +275,7 @@
                             "Feature Name": "Localized app interface",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
-                            "m-Path - Score": "Not Supported",
+                            "m-Path - Score": "Supported",
                             "m-Path - Notes": "",
                             "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
@@ -297,6 +285,354 @@
                         {
                             "Row ID": "1.2.2",
                             "Feature Name": "Localized study content (without duplication & branching)",
+                            "Avicenna (Ethica) - Score": "Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": ""
+                        },
+                        {
+                            "Row ID": "1.2.3",
+                            "Feature Name": "Antwerps app interface",
+                            "Avicenna (Ethica) - Score": "Not Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": ""
+                        },
+                        {
+                            "Row ID": "1.2.4",
+                            "Feature Name": "Arabic app interface",
+                            "Avicenna (Ethica) - Score": "Not Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Supported",
+                            "Movisens - Notes": "91%"
+                        },
+                        {
+                            "Row ID": "1.2.5",
+                            "Feature Name": "Catalan app interface",
+                            "Avicenna (Ethica) - Score": "Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": ""
+                        },
+                        {
+                            "Row ID": "1.2.6",
+                            "Feature Name": "Chinese app interface",
+                            "Avicenna (Ethica) - Score": "Supported",
+                            "Avicenna (Ethica) - Notes": "Simplified Chinese",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Partial Support",
+                            "Movisens - Notes": "28%"
+                        },
+                        {
+                            "Row ID": "1.2.7",
+                            "Feature Name": "Croatian app interface",
+                            "Avicenna (Ethica) - Score": "Not Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": ""
+                        },
+                        {
+                            "Row ID": "1.2.8",
+                            "Feature Name": "Dutch app interface",
+                            "Avicenna (Ethica) - Score": "Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Supported",
+                            "Movisens - Notes": "88%"
+                        },
+                        {
+                            "Row ID": "1.2.9",
+                            "Feature Name": "English app interface",
+                            "Avicenna (Ethica) - Score": "Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Supported",
+                            "Movisens - Notes": "100%"
+                        },
+                        {
+                            "Row ID": "1.2.10",
+                            "Feature Name": "Estonian app interface",
+                            "Avicenna (Ethica) - Score": "Not Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Partial Support",
+                            "Movisens - Notes": "75%"
+                        },
+                        {
+                            "Row ID": "1.2.11",
+                            "Feature Name": "Finnish app interface",
+                            "Avicenna (Ethica) - Score": "Not Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": ""
+                        },
+                        {
+                            "Row ID": "1.2.12",
+                            "Feature Name": "French app interface",
+                            "Avicenna (Ethica) - Score": "Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Supported",
+                            "Movisens - Notes": "86%"
+                        },
+                        {
+                            "Row ID": "1.2.13",
+                            "Feature Name": "German app interface",
+                            "Avicenna (Ethica) - Score": "Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Supported",
+                            "Movisens - Notes": "100%"
+                        },
+                        {
+                            "Row ID": "1.2.14",
+                            "Feature Name": "Hungarian app interface",
+                            "Avicenna (Ethica) - Score": "Not Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": ""
+                        },
+                        {
+                            "Row ID": "1.2.15",
+                            "Feature Name": "Indonesian app interface",
+                            "Avicenna (Ethica) - Score": "Not Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": "9%"
+                        },
+                        {
+                            "Row ID": "1.2.16",
+                            "Feature Name": "Italian app interface",
+                            "Avicenna (Ethica) - Score": "Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Supported",
+                            "Movisens - Notes": "86%"
+                        },
+                        {
+                            "Row ID": "1.2.17",
+                            "Feature Name": "Lithuanian app interface",
+                            "Avicenna (Ethica) - Score": "Not Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": "9%"
+                        },
+                        {
+                            "Row ID": "1.2.18",
+                            "Feature Name": "Norwegian app interface",
+                            "Avicenna (Ethica) - Score": "Not Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Supported",
+                            "Movisens - Notes": "88%"
+                        },
+                        {
+                            "Row ID": "1.2.19",
+                            "Feature Name": "Persian app interface",
+                            "Avicenna (Ethica) - Score": "Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": ""
+                        },
+                        {
+                            "Row ID": "1.2.20",
+                            "Feature Name": "Polish app interface",
+                            "Avicenna (Ethica) - Score": "Not Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Supported",
+                            "Movisens - Notes": "86%"
+                        },
+                        {
+                            "Row ID": "1.2.21",
+                            "Feature Name": "Portuguese app interface",
+                            "Avicenna (Ethica) - Score": "Not Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Supported",
+                            "Movisens - Notes": "86%"
+                        },
+                        {
+                            "Row ID": "1.2.22",
+                            "Feature Name": "Romanian app interface",
+                            "Avicenna (Ethica) - Score": "Not Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": "9%"
+                        },
+                        {
+                            "Row ID": "1.2.23",
+                            "Feature Name": "Russian app interface",
+                            "Avicenna (Ethica) - Score": "Not Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": ""
+                        },
+                        {
+                            "Row ID": "1.2.24",
+                            "Feature Name": "Slovenian app interface",
+                            "Avicenna (Ethica) - Score": "Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": ""
+                        },
+                        {
+                            "Row ID": "1.2.25",
+                            "Feature Name": "Spanish app interface",
+                            "Avicenna (Ethica) - Score": "Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Supported",
+                            "Movisens - Notes": "86%"
+                        },
+                        {
+                            "Row ID": "1.2.26",
+                            "Feature Name": "Spanish Colombian app interface",
+                            "Avicenna (Ethica) - Score": "Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": ""
+                        },
+                        {
+                            "Row ID": "1.2.27",
+                            "Feature Name": "Swedish app interface",
+                            "Avicenna (Ethica) - Score": "Not Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": ""
+                        },
+                        {
+                            "Row ID": "1.2.28",
+                            "Feature Name": "Turkish Colombian app interface",
+                            "Avicenna (Ethica) - Score": "Not Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": ""
+                        },
+                        {
+                            "Row ID": "1.2.29",
+                            "Feature Name": "Urdu app interface",
+                            "Avicenna (Ethica) - Score": "Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": ""
+                        },
+                        {
+                            "Row ID": "1.2.30",
+                            "Feature Name": "Vietnamese app interface",
+                            "Avicenna (Ethica) - Score": "Not Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": "9%"
+                        },
+                        {
+                            "Row ID": "1.2.31",
+                            "Feature Name": "Zulu app interface",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
@@ -845,6 +1181,18 @@
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
+                        },
+                        {
+                            "Row ID": "1.8.6",
+                            "Feature Name": "Option to capture handdrawn signature during consent",
+                            "Avicenna (Ethica) - Score": "Not Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Supported",
+                            "Movisens - Notes": ""
                         }
                     ]
                 },
@@ -945,6 +1293,18 @@
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": ""
+                        },
+                        {
+                            "Row ID": "1.10.4",
+                            "Feature Name": "Query any data (participants, sessions, responses) based on the participant's site affiliation.",
+                            "Avicenna (Ethica) - Score": "Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": ""
                         }
                     ]
                 }
@@ -1012,7 +1372,7 @@
                         },
                         {
                             "Row ID": "2.1.4",
-                            "Feature Name": "Conditional notifications (based on survey responses)",
+                            "Feature Name": "Conditional notifications (e.g. based on survey responses)",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Supported",
@@ -1040,7 +1400,7 @@
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
-                            "m-Path - Notes": "",
+                            "m-Path - Notes": "m-Path has a mechanism to email researchers. This is presented as a \"Question\", which is added as a module. It works like \"If variable X is equal to Y, send email\". This is defined within the survey. We categorized this as \"Conditional Notification\", rather than sending notification to researcher. That's because sending notification to researcher entails considerably more than this feature only.",
                             "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
@@ -1255,6 +1615,18 @@
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": "Couldn't find an easy flow to achieve this."
+                        },
+                        {
+                            "Row ID": "2.4.6",
+                            "Feature Name": "A session is cancelled / dismissed",
+                            "Avicenna (Ethica) - Score": "Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": ""
                         }
                     ]
                 }
@@ -1704,7 +2076,7 @@
                         },
                         {
                             "Row ID": "4.1.2",
-                            "Feature Name": "Export survey in a textual format",
+                            "Feature Name": "Export survey definition in a textual format",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
@@ -1716,7 +2088,7 @@
                         },
                         {
                             "Row ID": "4.1.3",
-                            "Feature Name": "Export survey as PDF",
+                            "Feature Name": "Export survey definition as PDF",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
@@ -1728,7 +2100,7 @@
                         },
                         {
                             "Row ID": "4.1.4",
-                            "Feature Name": "Import surveys from file",
+                            "Feature Name": "Import survey definition from a file (textual or spreadsheet)",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
@@ -1830,7 +2202,7 @@
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Supported",
-                            "m-Path - Notes": "",
+                            "m-Path - Notes": "Can only include one media, either one image, one audio, or one video. More than that requires multiple questions.",
                             "MetricWire - Score": "Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Supported",
@@ -1862,18 +2234,6 @@
                         },
                         {
                             "Row ID": "4.2.5",
-                            "Feature Name": "Question read-aloud option (for participants with reading difficulty)",
-                            "Avicenna (Ethica) - Score": "Supported",
-                            "Avicenna (Ethica) - Notes": "",
-                            "m-Path - Score": "Not Supported",
-                            "m-Path - Notes": "",
-                            "MetricWire - Score": "Not Supported",
-                            "MetricWire - Notes": "",
-                            "Movisens - Score": "Not Supported",
-                            "Movisens - Notes": ""
-                        },
-                        {
-                            "Row ID": "4.2.6",
                             "Feature Name": "Visualize responses to a question within the app",
                             "Avicenna (Ethica) - Score": "Not Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -1885,7 +2245,7 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "4.2.7",
+                            "Row ID": "4.2.6",
                             "Feature Name": "View past responses to a question while answering that question",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "You can use Piping to get the response to the last question and display it as part of the survey content.",
@@ -1897,7 +2257,7 @@
                             "Movisens - Notes": "Via \"Save answer as mutable value\" and \"Display Mutable Value\" form item."
                         },
                         {
-                            "Row ID": "4.2.8",
+                            "Row ID": "4.2.7",
                             "Feature Name": "Set minimum & maximum display time for a question",
                             "Avicenna (Ethica) - Score": "Not Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -1909,19 +2269,7 @@
                             "Movisens - Notes": "You can put the question inside a Multi-Item Screen and set the MIS's \"Auto advance time\" for the maximum display time. The items (questions) in that MIS must be marked as not required."
                         },
                         {
-                            "Row ID": "4.2.9",
-                            "Feature Name": "Exclude / Include a question in the survey",
-                            "Avicenna (Ethica) - Score": "Supported",
-                            "Avicenna (Ethica) - Notes": "",
-                            "m-Path - Score": "Supported",
-                            "m-Path - Notes": "",
-                            "MetricWire - Score": "Supported",
-                            "MetricWire - Notes": "",
-                            "Movisens - Score": "",
-                            "Movisens - Notes": "WIP: Waiting for the comment on the feature name to be resolved."
-                        },
-                        {
-                            "Row ID": "4.2.10",
+                            "Row ID": "4.2.8",
                             "Feature Name": "Piping values into question content from current participant",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -1933,7 +2281,7 @@
                             "Movisens - Notes": "Via \"Mutable Values\" and \"Display Mutable Value\" form item."
                         },
                         {
-                            "Row ID": "4.2.11",
+                            "Row ID": "4.2.9",
                             "Feature Name": "Piping values into question content from another participant",
                             "Avicenna (Ethica) - Score": "Not Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -1945,7 +2293,7 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "4.2.12",
+                            "Row ID": "4.2.10",
                             "Feature Name": "Variable name for questions",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -1957,7 +2305,7 @@
                             "Movisens - Notes": "Called \"Label\". You will see them as a column header in your downloaded results table. Labels must start with a letter and can only consist of letters, numbers, \"-\", and \"_\". Labels are unique within the whole study. This differs from \"Save answer as mutable value\"."
                         },
                         {
-                            "Row ID": "4.2.13",
+                            "Row ID": "4.2.11",
                             "Feature Name": "Variable name for answers",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -1969,7 +2317,7 @@
                             "Movisens - Notes": "Called \"Stored Value\"."
                         },
                         {
-                            "Row ID": "4.2.14",
+                            "Row ID": "4.2.12",
                             "Feature Name": "Mandatory vs. optional questions",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -1981,7 +2329,7 @@
                             "Movisens - Notes": "In some item formats (e.g. Visual Analog Scale) a default value is present. In this case, the required field will be ignored."
                         },
                         {
-                            "Row ID": "4.2.15",
+                            "Row ID": "4.2.13",
                             "Feature Name": "Allow researchers to put private comments on specific questions",
                             "Avicenna (Ethica) - Score": "Not Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -2372,7 +2720,7 @@
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Partial Support",
-                            "m-Path - Notes": "",
+                            "m-Path - Notes": "You cannot define the ranges for each option.",
                             "MetricWire - Score": "Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
@@ -2395,18 +2743,6 @@
                             "Feature Name": "VAS - Control appearance of slider thumb",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
-                            "m-Path - Score": "Supported",
-                            "m-Path - Notes": "",
-                            "MetricWire - Score": "Not Supported",
-                            "MetricWire - Notes": "",
-                            "Movisens - Score": "Not Supported",
-                            "Movisens - Notes": ""
-                        },
-                        {
-                            "Row ID": "4.3.32",
-                            "Feature Name": "VAS - Display participant's last answer to the question on the question's interface.",
-                            "Avicenna (Ethica) - Score": "Supported",
-                            "Avicenna (Ethica) - Notes": "You can use Piping to get the last response to this question and display it as part of the question's content.",
                             "m-Path - Score": "Supported",
                             "m-Path - Notes": "",
                             "MetricWire - Score": "Not Supported",
@@ -2464,7 +2800,7 @@
                         },
                         {
                             "Row ID": "4.3.37",
-                            "Feature Name": "Calendar - Support interval entry (duration, e.g. 15 minutes, 1h10m, etc.)",
+                            "Feature Name": "Calendar - Support entering period (e.g. from 10:30 to 12:15)",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
@@ -2718,7 +3054,19 @@
                         },
                         {
                             "Row ID": "4.4.4",
-                            "Feature Name": "Support sections",
+                            "Feature Name": "Exclude / Include a question in the survey",
+                            "Avicenna (Ethica) - Score": "Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": ""
+                        },
+                        {
+                            "Row ID": "4.4.5",
+                            "Feature Name": "Support for sections in a survey.",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Supported",
@@ -2729,7 +3077,7 @@
                             "Movisens - Notes": "Called \"Multi-Item Screen\"."
                         },
                         {
-                            "Row ID": "4.4.5",
+                            "Row ID": "4.4.6",
                             "Feature Name": "Randomize sections",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -2741,7 +3089,7 @@
                             "Movisens - Notes": "You should enable/disable it for each form TL separately."
                         },
                         {
-                            "Row ID": "4.4.6",
+                            "Row ID": "4.4.7",
                             "Feature Name": "Randomize questions within a section",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -2753,7 +3101,7 @@
                             "Movisens - Notes": "You should enable/disable for each form TL separately. Questions that don't belong to any section (root questions) will be randomized. You can see such form as a form with one section."
                         },
                         {
-                            "Row ID": "4.4.7",
+                            "Row ID": "4.4.8",
                             "Feature Name": "Randomize answers within a question (for multiple-answer questions)",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -2765,7 +3113,7 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "4.4.8",
+                            "Row ID": "4.4.9",
                             "Feature Name": "Anchor certain answers so they are not moved when randomization is performed.",
                             "Avicenna (Ethica) - Score": "Not Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -2777,7 +3125,7 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "4.4.9",
+                            "Row ID": "4.4.10",
                             "Feature Name": "Randomly select a subset of sections",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -2789,7 +3137,7 @@
                             "Movisens - Notes": "On request. You should enable/disable for each form TL separately. You can show only the given count of all items in a stratified randomized order (if randomized is activated)."
                         },
                         {
-                            "Row ID": "4.4.10",
+                            "Row ID": "4.4.11",
                             "Feature Name": "Randomly select a subset of questions within a section",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -2801,7 +3149,7 @@
                             "Movisens - Notes": "On request. You should enable/disable for each form TL separately. You can show only the given count of all items in a stratified randomized order (if randomized is activated). Questions that don't belong to any section (root questions) will be randomly selected. You can see such form as a form with one section."
                         },
                         {
-                            "Row ID": "4.4.11",
+                            "Row ID": "4.4.12",
                             "Feature Name": "Randomly select a subset of answers of a question",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -2813,7 +3161,7 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "4.4.12",
+                            "Row ID": "4.4.13",
                             "Feature Name": "Show one question per page or one section per page",
                             "Avicenna (Ethica) - Score": "Not Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -2825,7 +3173,7 @@
                             "Movisens - Notes": "You can structure your form on the root level by putting questions beside the sections."
                         },
                         {
-                            "Row ID": "4.4.13",
+                            "Row ID": "4.4.14",
                             "Feature Name": "Define and customize divider between questions (when an entire section is displayed)",
                             "Avicenna (Ethica) - Score": "Not Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -2837,7 +3185,7 @@
                             "Movisens - Notes": "You can use Display Text with \"________________\" (or any other text) as the content."
                         },
                         {
-                            "Row ID": "4.4.14",
+                            "Row ID": "4.4.15",
                             "Feature Name": "Disable/Enable review and edit answers upon completion",
                             "Avicenna (Ethica) - Score": "Not Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -2849,7 +3197,7 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "4.4.15",
+                            "Row ID": "4.4.16",
                             "Feature Name": "Loop on a section",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -2907,8 +3255,8 @@
                             "m-Path - Notes": "",
                             "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
-                            "Movisens - Score": "",
-                            "Movisens - Notes": "WIP: Waiting for the comment on the feature name to be resolved."
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": ""
                         },
                         {
                             "Row ID": "4.5.4",
@@ -3042,7 +3390,7 @@
                             "Avicenna (Ethica) - Score": "Not Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Partial Support",
-                            "m-Path - Notes": "",
+                            "m-Path - Notes": "Skipped is available. \"Randomized & not selected\", and \"branching skip\" are not.",
                             "MetricWire - Score": "Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Partial Support",
@@ -3086,7 +3434,7 @@
                         },
                         {
                             "Row ID": "4.8.5",
-                            "Feature Name": "Response metadata - Open time, per-question response time, completion time, media interactions",
+                            "Feature Name": "Response metadata - Open time, per-question response time, completion time",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Supported",
@@ -3486,7 +3834,7 @@
             "subcategories": [
                 {
                     "Row ID": "7.1",
-                    "Feature Name": "Roles & Permission",
+                    "Feature Name": "Roles & Permissions",
                     "Avicenna (Ethica) - Score": "",
                     "Avicenna (Ethica) - Notes": "",
                     "m-Path - Score": "",
@@ -3510,42 +3858,30 @@
                         },
                         {
                             "Row ID": "7.1.2",
-                            "Feature Name": "Control which role can interact with which action on the website",
+                            "Feature Name": "Control permissions for working with different parts of study protocol (e.g. study settings, survey definitions, etc.)",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
                             "MetricWire - Score": "Supported",
                             "MetricWire - Notes": "While MW does not support roles, you can specify per researcher what actions they can take.",
-                            "Movisens - Score": "Supported",
-                            "Movisens - Notes": "WIP: Only one permission: edit study"
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": ""
                         },
                         {
                             "Row ID": "7.1.3",
-                            "Feature Name": "Control which role can interact with which part of study metadata (participants list, study protocol, etc.)",
+                            "Feature Name": "Control permissions for working with different parts of study data (e.g. participants, survey responses, sensor data, etc.)",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
                             "MetricWire - Score": "Supported",
                             "MetricWire - Notes": "While MW does not support roles, you can specify per researcher what actions they can take.",
-                            "Movisens - Score": "Supported",
-                            "Movisens - Notes": "WIP: Only one permission: read study"
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": ""
                         },
                         {
                             "Row ID": "7.1.4",
-                            "Feature Name": "Control which role can interact with which data for a study (surveys, sensor data, cognitive tasks)",
-                            "Avicenna (Ethica) - Score": "Supported",
-                            "Avicenna (Ethica) - Notes": "",
-                            "m-Path - Score": "Not Supported",
-                            "m-Path - Notes": "",
-                            "MetricWire - Score": "Not Supported",
-                            "MetricWire - Notes": "",
-                            "Movisens - Score": "Supported",
-                            "Movisens - Notes": "WIP: Only one permission: read study"
-                        },
-                        {
-                            "Row ID": "7.1.5",
                             "Feature Name": "Different permission profiles for different study sites",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -3557,15 +3893,15 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "7.1.6",
-                            "Feature Name": "Permission levels for Full, View-Only, None.",
+                            "Row ID": "7.1.5",
+                            "Feature Name": "Permission levels for Full, View-Only, and None",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
                             "MetricWire - Score": "Supported",
                             "MetricWire - Notes": "",
-                            "Movisens - Score": "Not Supported",
+                            "Movisens - Score": "Supported",
                             "Movisens - Notes": ""
                         }
                     ]
@@ -3584,18 +3920,6 @@
                     "features": [
                         {
                             "Row ID": "7.2.1",
-                            "Feature Name": "End-to-end encryption",
-                            "Avicenna (Ethica) - Score": "Not Supported",
-                            "Avicenna (Ethica) - Notes": "",
-                            "m-Path - Score": "Not Supported",
-                            "m-Path - Notes": "",
-                            "MetricWire - Score": "Not Supported",
-                            "MetricWire - Notes": "",
-                            "Movisens - Score": "Supported",
-                            "Movisens - Notes": "256 Bit encrypted data transfer on all data channels (between smartphone/browser and server)."
-                        },
-                        {
-                            "Row ID": "7.2.2",
                             "Feature Name": "In-transit encryption",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -3607,7 +3931,7 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "7.2.3",
+                            "Row ID": "7.2.2",
                             "Feature Name": "Encryption-at-rest",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -3615,11 +3939,11 @@
                             "m-Path - Notes": "",
                             "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
-                            "Movisens - Score": "Supported",
-                            "Movisens - Notes": "256 Bit encrypted data storage on the smartphone. The decryption of the data will happen only on the server. If a smartphone is lost by the participant, the data collected cannot be decrypted by a third person."
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "7.2.4",
+                            "Row ID": "7.2.3",
                             "Feature Name": "API key rotation",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -3631,7 +3955,7 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "7.2.5",
+                            "Row ID": "7.2.4",
                             "Feature Name": "Auto-logout",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -3643,7 +3967,7 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "7.2.6",
+                            "Row ID": "7.2.5",
                             "Feature Name": "Multi-factor authentication",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -3655,7 +3979,7 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "7.2.7",
+                            "Row ID": "7.2.6",
                             "Feature Name": "Password expiry",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -3667,7 +3991,7 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "7.2.8",
+                            "Row ID": "7.2.7",
                             "Feature Name": "Prevent using old password",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -3679,7 +4003,7 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "7.2.9",
+                            "Row ID": "7.2.8",
                             "Feature Name": "Minimum password strength",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -3691,7 +4015,7 @@
                             "Movisens - Notes": "At least 8 characters length and maximum 64 characters length, at least 1 upper case letter, at least 1 lower case letter, at least 1 special character"
                         },
                         {
-                            "Row ID": "7.2.10",
+                            "Row ID": "7.2.9",
                             "Feature Name": "Blocking access for a certain period in case of multiple failed login attempts",
                             "Avicenna (Ethica) - Score": "Not Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -4446,7 +4770,7 @@
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
-                            "m-Path - Notes": "",
+                            "m-Path - Notes": "The provided feature only shows the surveys scheduled for that day. This is less than 20% of the configurations defined in Avicenna. Hence this is marked as \"Not Supported\".",
                             "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
@@ -4502,7 +4826,7 @@
                         },
                         {
                             "Row ID": "9.1.11",
-                            "Feature Name": "Allow participants to choose preferred notification channel",
+                            "Feature Name": "Allow participants to delete their account and all associated data via the app.",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
@@ -4514,10 +4838,10 @@
                         },
                         {
                             "Row ID": "9.1.12",
-                            "Feature Name": "Support participant account deletion",
+                            "Feature Name": "Allow participants to choose preferred notification channel",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
-                            "m-Path - Score": "Supported",
+                            "m-Path - Score": "Not Supported",
                             "m-Path - Notes": "",
                             "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
@@ -4547,6 +4871,30 @@
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
                             "Movisens - Notes": "You should finish a study first before starting another one."
+                        },
+                        {
+                            "Row ID": "9.1.15",
+                            "Feature Name": "Allow researchers to pair their phone via the app to their account and test study flow",
+                            "Avicenna (Ethica) - Score": "Not Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": ""
+                        },
+                        {
+                            "Row ID": "9.1.16",
+                            "Feature Name": "Allow researchers to enter into debug mode in the app to diagnos issues related to the participant or study design.",
+                            "Avicenna (Ethica) - Score": "Not Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Score": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": ""
                         }
                     ]
                 }
@@ -4700,6 +5048,18 @@
                         },
                         {
                             "Row ID": "10.2.2",
+                            "Feature Name": "Export survey responses' media files (recorded audio, captured images, or videos)",
+                            "Avicenna (Ethica) - Score": "Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "m-Path - Score": "Not Supported",
+                            "m-Path - Notes": "m-Path stores media files in a separate third-party file storage server. To access the files, the researcher should go to this third-party website. So no feature to export these media files exist on the platform.",
+                            "MetricWire - Score": "Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Score": "Supported",
+                            "Movisens - Notes": "All multimedia results are exported as ZIP."
+                        },
+                        {
+                            "Row ID": "10.2.3",
                             "Feature Name": "Customize export format",
                             "Avicenna (Ethica) - Score": "Not Supported",
                             "Avicenna (Ethica) - Notes": "",
