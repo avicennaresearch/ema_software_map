@@ -1276,7 +1276,7 @@
                         },
                         {
                             "Row ID": "2.1.4",
-                            "Feature Name": "Conditional notifications (based on survey responses)",
+                            "Feature Name": "Conditional notifications (e.g. based on survey responses)",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Supported",
@@ -1304,7 +1304,7 @@
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
-                            "m-Path - Notes": "",
+                            "m-Path - Notes": "m-Path has a mechanism to email researchers. This is presented as a \"Question\", which is added as a module. It works like \"If variable X is equal to Y, send email\". This is defined within the survey. We categorized this as \"Conditional Notification\", rather than sending notification to researcher. That's because sending notification to researcher entails considerably more than this feature only.",
                             "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
@@ -2094,7 +2094,7 @@
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Supported",
-                            "m-Path - Notes": "",
+                            "m-Path - Notes": "Can only include one media, either one image, one audio, or one video. More than that requires multiple questions.",
                             "MetricWire - Score": "Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Supported",
@@ -2636,7 +2636,7 @@
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Partial Support",
-                            "m-Path - Notes": "",
+                            "m-Path - Notes": "You cannot define the ranges for each option.",
                             "MetricWire - Score": "Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
@@ -2728,7 +2728,7 @@
                         },
                         {
                             "Row ID": "4.3.37",
-                            "Feature Name": "Calendar - Support interval entry (duration, e.g. 15 minutes, 1h10m, etc.)",
+                            "Feature Name": "Calendar - Support entering period (e.g. from 10:30 to 12:15)",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
@@ -3306,7 +3306,7 @@
                             "Avicenna (Ethica) - Score": "Not Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Partial Support",
-                            "m-Path - Notes": "",
+                            "m-Path - Notes": "Skipped is available. \"Randomized & not selected\", and \"branching skip\" are not )",
                             "MetricWire - Score": "Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Partial Support",
@@ -3350,7 +3350,7 @@
                         },
                         {
                             "Row ID": "4.8.5",
-                            "Feature Name": "Response metadata - Open time, per-question response time, completion time, media interactions",
+                            "Feature Name": "Response metadata - Open time, per-question response time, completion time",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Supported",
@@ -3750,7 +3750,7 @@
             "subcategories": [
                 {
                     "Row ID": "7.1",
-                    "Feature Name": "Roles & Permission",
+                    "Feature Name": "Roles & Permissions",
                     "Avicenna (Ethica) - Score": "",
                     "Avicenna (Ethica) - Notes": "",
                     "m-Path - Score": "",
@@ -3774,7 +3774,7 @@
                         },
                         {
                             "Row ID": "7.1.2",
-                            "Feature Name": "Control permissions for working with different parts of study protocol (study settings, survey definitions, etc.)",
+                            "Feature Name": "Control permissions for working with different parts of study protocol (e.g. study settings, survey definitions, etc.)",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
@@ -3786,7 +3786,7 @@
                         },
                         {
                             "Row ID": "7.1.3",
-                            "Feature Name": "Control permissions for working with different parts of study data (participants, survey responses, sensor data, etc.)",
+                            "Feature Name": "Control permissions for working with different parts of study data (e.g. participants, survey responses, sensor data, etc.)",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
@@ -3836,18 +3836,6 @@
                     "features": [
                         {
                             "Row ID": "7.2.1",
-                            "Feature Name": "End-to-end encryption",
-                            "Avicenna (Ethica) - Score": "Not Supported",
-                            "Avicenna (Ethica) - Notes": "",
-                            "m-Path - Score": "Not Supported",
-                            "m-Path - Notes": "",
-                            "MetricWire - Score": "Not Supported",
-                            "MetricWire - Notes": "",
-                            "Movisens - Score": "Supported",
-                            "Movisens - Notes": "256 Bit encrypted data transfer on all data channels (between smartphone/browser and server)."
-                        },
-                        {
-                            "Row ID": "7.2.2",
                             "Feature Name": "In-transit encryption",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -3859,7 +3847,7 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "7.2.3",
+                            "Row ID": "7.2.2",
                             "Feature Name": "Encryption-at-rest",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -3867,11 +3855,11 @@
                             "m-Path - Notes": "",
                             "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
-                            "Movisens - Score": "Supported",
-                            "Movisens - Notes": "256 Bit encrypted data storage on the smartphone. The decryption of the data will happen only on the server. If a smartphone is lost by the participant, the data collected cannot be decrypted by a third person."
+                            "Movisens - Score": "Not Supported",
+                            "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "7.2.4",
+                            "Row ID": "7.2.3",
                             "Feature Name": "API key rotation",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -3883,7 +3871,7 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "7.2.5",
+                            "Row ID": "7.2.4",
                             "Feature Name": "Auto-logout",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -3895,7 +3883,7 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "7.2.6",
+                            "Row ID": "7.2.5",
                             "Feature Name": "Multi-factor authentication",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -3907,7 +3895,7 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "7.2.7",
+                            "Row ID": "7.2.6",
                             "Feature Name": "Password expiry",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -3919,7 +3907,7 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "7.2.8",
+                            "Row ID": "7.2.7",
                             "Feature Name": "Prevent using old password",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -3931,7 +3919,7 @@
                             "Movisens - Notes": ""
                         },
                         {
-                            "Row ID": "7.2.9",
+                            "Row ID": "7.2.8",
                             "Feature Name": "Minimum password strength",
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -3943,7 +3931,7 @@
                             "Movisens - Notes": "At least 8 characters length and maximum 64 characters length, at least 1 upper case letter, at least 1 lower case letter, at least 1 special character"
                         },
                         {
-                            "Row ID": "7.2.10",
+                            "Row ID": "7.2.9",
                             "Feature Name": "Blocking access for a certain period in case of multiple failed login attempts",
                             "Avicenna (Ethica) - Score": "Not Supported",
                             "Avicenna (Ethica) - Notes": "",
@@ -4698,7 +4686,7 @@
                             "Avicenna (Ethica) - Score": "Supported",
                             "Avicenna (Ethica) - Notes": "",
                             "m-Path - Score": "Not Supported",
-                            "m-Path - Notes": "",
+                            "m-Path - Notes": "The provided feature only shows the surveys scheduled for that day. This is less than 20% of the configurations defined in Avicenna. Hence this is marked as \"Not Supported\".",
                             "MetricWire - Score": "Not Supported",
                             "MetricWire - Notes": "",
                             "Movisens - Score": "Not Supported",
