@@ -232,8 +232,8 @@ body_requests = [{
     "repeatCell": {
         "range": {
             "sheetId": current_sheet.id,
-            "startRowIndex": overall_score_row_index + 2 - 1,
-            "endRowIndex": overall_score_row_index + 2,
+            "startRowIndex": overall_score_row_index - 1,
+            "endRowIndex": overall_score_row_index,
             "startColumnIndex": 2,
             "endColumnIndex": 50,
         },
