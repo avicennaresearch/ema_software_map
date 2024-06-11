@@ -33,20 +33,20 @@ Therefore, each row either shows a section, a subsection, or a feature.
 Each row starts with an ID, which is assigned sequentially. The second column in
 each row is either the section or subsection title, or the feature description.
 Following the `Row ID` and `Feature Name` columns, companies are listed
-alphabetically. Each company has two rows: `Score` and `Notes`.
+alphabetically. Each company has two rows: `Coverage` and `Notes`.
 
-For feature rows, the `Score` column is one of the following:
+For feature rows, the `Coverage` column is one of the following:
 
 - `Supported`: the software supports 75% or more of that feature.
 - `Partial Support`: the software supports between 25% to 75% of that feature.
 - `Not Supported`: the software does not support the feature, or supports less
   than 25% of it.
 
-For section and subsection rows, the `Score` column shows to what percent that
+For section and subsection rows, the `Coverage` column shows to what percent that
 category is supported by this software.
 
 The `Notes` column is empty for section and subsection rows. But for feature
-rows, this column rationale behind the assigned score or assessment, if needed.
+rows, this column rationale behind the assigned coverage or assessment, if needed.
 
 The sections, subsections, and columns are grouped so it's easier to navigate in
 the file.
@@ -116,8 +116,8 @@ at `scripts/process_json.py`. The script does the following:
 1. Deletes the old sheet.
 2. Creates a new sheet using the values in this JSON.
 3. Applies the formatting: cell colors, frozen rows and columns, % format of the
-   score cells, grouping of rows and columns, and so on.
-4. Updates the formula of score cells based on the row IDs.
+   coverage cells, grouping of rows and columns, and so on.
+4. Updates the formula of coverage cells based on the row IDs.
 
 This method allows us to work on the JSON file to discuss the changes, but
 always have the sheet as an easy way to see the results.

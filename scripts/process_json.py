@@ -1,5 +1,5 @@
 # TODO:
-# 1. If value of a "Score" is anything other than "Supported", "Not Supported",
+# 1. If value of a "Coverage" is anything other than "Supported", "Not Supported",
 #   and "Partial Support", raise an exception.
 # 2. Create a tool to set the value of IDs. 
 import json
@@ -91,10 +91,10 @@ gspread_client = _get_gspread_client()
 spreadsheet = gspread_client.open_by_url(SHEET_URL)
 spreadsheet.del_worksheet([
     x for x in spreadsheet.worksheets()
-    if x.title == 'Competitive Landscape'
+    if x.title == 'Feature Map'
 ][0])
 current_sheet = spreadsheet.add_worksheet(
-    title="Competitive Landscape", rows=400, cols=30
+    title="Feature Map", rows=400, cols=30
 )
 
 #
@@ -105,7 +105,7 @@ formula_details = []
 grouping_details = []
 category_color_row_ids = []
 subcategory_color_row_ids = []
-overall_score_row_index = None
+overall_coverage_row_index = None
 row_id = 1 # ID of the row in spreadsheet (starts from 1)
 feature_start = float("inf")
 
@@ -139,9 +139,9 @@ for ic, cat in enumerate(data["categories"]):
             subcat_feature_start = min(subcat_feature_start, row_id)
             subcat_feature_end = max(subcat_feature_end, row_id)
 
-            if feature_name == "Overall Score":
-                # Save the address of "Overall Score" feature
-                overall_score_row_index = row_id
+            if feature_name == "Overall Coverage":
+                # Save the address of "Overall Coverage" feature
+                overall_coverage_row_index = row_id
             if feature["Row ID"] == "1.1.1":
                 feature_start = row_id
             flat_data.append(feature)
@@ -159,7 +159,7 @@ for ic, cat in enumerate(data["categories"]):
     })
     grouping_details.append((cur_cat_row_id, row_id))
 formula_details.append({
-    "row_index": overall_score_row_index - 2,
+    "row_index": overall_coverage_row_index - 2,
     "lower_bound": feature_start,
     "upper_bound": row_id
 })
@@ -168,8 +168,8 @@ for fd in formula_details:
     for company_name, company_columns in COMPANY_COLUMNS.items():
         lb = fd["lower_bound"]
         ub = fd["upper_bound"]
-        sc = score_column = company_columns[0]
-        flat_data[fd["row_index"]][f"{company_name} - Score"] = f"""=IFERROR(
+        sc = coverage_column = company_columns[0]
+        flat_data[fd["row_index"]][f"{company_name} - Coverage"] = f"""=IFERROR(
             SUMPRODUCT(
                 (REGEXMATCH(ARRAYFORMULA(
                     TO_TEXT({sc}{lb}:{sc}{ub})), \"^Supported$\") * 1) +
@@ -233,8 +233,8 @@ body_requests = [{
     "repeatCell": {
         "range": {
             "sheetId": current_sheet.id,
-            "startRowIndex": overall_score_row_index - 1,
-            "endRowIndex": overall_score_row_index,
+            "startRowIndex": overall_coverage_row_index - 1,
+            "endRowIndex": overall_coverage_row_index,
             "startColumnIndex": 2,
             "endColumnIndex": 50,
         },

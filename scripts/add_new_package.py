@@ -18,7 +18,7 @@ def _add_package(d, pkg_name, is_feature=True):
             return 1
         if i1_pkg < i2_pkg:
             return -1
-        if i1_purpose == "Score":
+        if i1_purpose == "Coverage":
             return -1
         return 1
 
@@ -29,12 +29,12 @@ def _add_package(d, pkg_name, is_feature=True):
         org_items[1] # Feature Name
     ]
     if is_feature:
-        org_items.append((f"{pkg_name} - Score", ""))
+        org_items.append((f"{pkg_name} - Coverage", ""))
         org_items.append((f"{pkg_name} - Notes", ""))
         sorted_list = sorted(org_items[2:], key=key_function)
         final_items.extend(sorted_list)
     else:
-        org_items.insert(-1, (f"{pkg_name} - Score", ""))
+        org_items.insert(-1, (f"{pkg_name} - Coverage", ""))
         org_items.insert(-1, (f"{pkg_name} - Notes", ""))
         sorted_list = sorted(org_items[2:-1], key=key_function)
         final_items.extend(sorted_list)
