@@ -1,36 +1,29 @@
-Spreadsheet to Compare Available EMA Softwares.
+For summary of this repo, check the following spreadsheet:
 
 [Access Here](https://docs.google.com/spreadsheets/d/1zRuZIJKE9mm90asM9U07MRmoJE51giFEUMJQhXZDf3Y/edit#gid=1750024108)
 
-# Why EMA Comparison?
+# Why EMA Software Map?
 
-There are many EMA softwares out there. Some were released just a year ago while
-others have been gathering dust for more than 10 years. Some offer lots of free
-features, while others don't give you the option to even see the product unless
-you go through a sales process!
+There are many EMA softwares out there. This makes it very difficult to choose
+the right software for a new research. There has been some work like 
+[this] or [this] to help researchers choose wisely, but they all are either too
+abstract, or too dated, or incomplete.
 
-This makes it very difficult to choose a software for a new research. Most
-researchers just pick a software they've heard before, do some due diligence and
-if nothing smells, purchase a license and move on to their research. They just
-hope nothing breaks. This is far from perfect. Some feel buyer's remorse as soon
-as they start implementing their protocol. Especially when things get hard
-during the field deployment, they start thinking maybe there was a more suitable
-option out there.
-
-At Avicenna, we have been monitoring our competitors for some time. This helps
+At Avicenna, we have been monitoring EMA softwares for some time. This helps
 us to know what is our differentiator, and where we fall short. We have tried to
 do this systematically and with an unbiased perspective, so we get the right
-feedback, even if it's bitter or not something we want to hear. We believe this
-can help other researchers as well in deciding as to which software they should
-choose.
+feedback, even if the result something we want to hear. 
 
-In this repository, we are open-sourcing our competitive landscape research. We
-hope the content here can help other researchers also to make more informed
-decisions in choosing the right software for their research.
+In this repository, we are open-sourcing our research results. Our goal of doing
+so is two-fold: first, we hope the content here can help other researchers also
+to make more informed decisions in choosing the right software for their
+research. Second, we hope researchers contribute and feedback what areas require
+more attention and development, and this way shape the way EMA software are being
+developed.
 
 # How to Read This File
 
-To check the comparison, please open
+To check the EMA software feature map, please open
 [this spreadsheet](https://docs.google.com/spreadsheets/d/1zRuZIJKE9mm90asM9U07MRmoJE51giFEUMJQhXZDf3Y/edit#gid=1750024108).
 The sheet is divided into a set of sections, and each section is further divided
 into a set of subsections. Each subsection then lists a set of features that a
@@ -62,21 +55,6 @@ You only have read-only access to this file. That means you cannot collapse or
 expand the main spreadsheet file either (Google Sheets limitation). To do so,
 simply create a copy of the file and play with it as you like.
 
-# Roadmap
-
-We are going to add the following softwares to the list as well:
-
-1. mEMA
-2. ExpiWell
-3. Biewe
-4. Fibion
-5. mindLAMP
-6. myCap
-7. NeuroUX
-8. RealLife Exp
-9. TIIM
-10. Ksana Health
-
 # Methodology
 
 To perform this analysis, we selected softwares that:
@@ -105,15 +83,14 @@ categories:
   features are not. These are added to this repository and are used for
   calculating the feature coverage.
 
-We share the results of both here. Please note the distinction when reading the
-content. The table here is objectively measured, we welcome public contribution
-to it and happily modify it if we have missed an item or two. On the other hand,
-the blog posts are our personal assessment of the software, and we cannot prove
-it one way or the other. So you may want to take it with a grain of salt.
+We write our subjective assessment as a blog post in our website. We cannot
+prove or disprove our statements there. So you may want to take it with a grain
+of salt. But our Objective Assessments are shared in this repo. We welcome
+public contribution to it and happily modify it if we have missed anything.
 
 # Technical Details
 
-Ideally, this comparison would be just a simple spreadsheet file. But then the
+Ideally, this work would be just a simple spreadsheet file. But then the
 contribution to it would be difficult. Spreadsheets are not the best to track
 changes, provide reasoning for those changes, and discuss the reasons.
 
@@ -121,18 +98,20 @@ GitHub is perfect for such versioning and discussions, but it's not easy to view
 the results. So we decided to have the data in GitHub, and automatically create
 a spreadsheet to view the results.
 
-Also, we did not want this to be a one-time effort. We want the comparison table
-to remain up-to-date as the software packages change. So we also needed an
-automated monitoring system.
+Also, we did not want this to be a one-time effort. We want this feature map
+table to remain up-to-date as the software packages change. So we also needed
+an automated monitoring system.
 
 The above reasons are why we created this repository the way it is. You can read
 more for its technical details.
 
 ## Underlying JSON File
 
-The underlying comparison data are stored in a JSON file. The file has an array
-of rows: one element per each row of the sheet. Any change to this file triggers
-the update script at `scripts/process_json.py`. The script does the following:
+The underlying data are stored in a JSON file. The file has an array
+of sections, each containing an array of sub-sections, and each in turn
+containing an array of features. If you are familiar with JSON, it should be
+fairly easy to read it. Any change to this file triggers the update script
+at `scripts/process_json.py`. The script does the following:
 
 1. Deletes the old sheet.
 2. Creates a new sheet using the values in this JSON.
@@ -140,8 +119,8 @@ the update script at `scripts/process_json.py`. The script does the following:
    score cells, grouping of rows and columns, and so on.
 4. Updates the formula of score cells based on the row IDs.
 
-This method allows us to work on the JSON file to discuss the changes and
-comparisons, but always have the sheet as an easy way to see the results.
+This method allows us to work on the JSON file to discuss the changes, but
+always have the sheet as an easy way to see the results.
 
 ## Change Monitoring
 
@@ -150,8 +129,7 @@ monitor the changes to any software packages we have reviewed. During the review
 process, we create a list of all URLs we visited. The list is stored in a text
 file under the `sitemaps` directory. Then we add all of these URLs to the
 ChangeDetection to be checked every other day. If any changes, we get an email
-and update the content of the comparison JSON file, which in turn will update
-the sheet.
+and update the content of the JSON file, which in turn will update the sheet.
 
 This way the sheet will remain up-to-date all the time.
 
@@ -164,8 +142,8 @@ the bias will be minimal.
 
 ## Contribution Criteria
 
-To further minimize the bias and increase the validity of this comparison table,
-we have defined the following conditions.
+To further minimize the bias and increase the validity of this table, we have
+defined the following conditions.
 
 ### Only Actively Maintained Products
 

@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'EMA_Feature_Comparison.json'
+      - 'EMA_Feature_Map.json'
   workflow_dispatch:
 
 jobs:

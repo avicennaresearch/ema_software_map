@@ -2,7 +2,7 @@ import json
 import argparse
 from functools import cmp_to_key
 
-FILE_NAME = "EMA_Feature_Comparison.json"
+FILE_NAME = "EMA_Feature_Map.json"
 
 def _add_package(d, pkg_name, is_feature=True):
     def _custom_cmpr(item1, item2):
