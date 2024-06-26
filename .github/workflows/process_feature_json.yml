@@ -3,7 +3,7 @@ name: Process Feature File
 on:
   push:
     branches:
-      - main
+      - '**'
     paths:
       - 'EMA_Feature_Map.json'
   workflow_dispatch:
@@ -24,6 +24,14 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install gspread oauth2client google-api-python-client google-auth-httplib2 google-auth-oauthlib
+
+      - name: Set GSHEET_ID for main branch
+        if: github.ref == 'refs/heads/main'
+        run: echo "GSHEET_ID=${{ secrets.SHEET_ID_MAIN }}" >> $GITHUB_ENV
+
+      - name: Set GSHEET_ID for other branches
+        if: github.ref != 'refs/heads/main'
+        run: echo "GSHEET_ID=${{ secrets.SHEET_ID_WIP }}" >> $GITHUB_ENV
 
       - name: Process Feature JSON
         env:
