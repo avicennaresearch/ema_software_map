@@ -4,6 +4,7 @@
 # 2. Create a tool to set the value of IDs. 
 import json
 import gspread
+import os
 from time import sleep
 from google.oauth2.credentials import Credentials
 from google.auth.transport.requests import Request
@@ -48,7 +49,7 @@ COMPANY_COLUMNS = {
 CREDENTIALS = None
 GSPREAD_CLIENT = None
 GAPI_SERVICE = None
-SHEET_ID = '1zRuZIJKE9mm90asM9U07MRmoJE51giFEUMJQhXZDf3Y'
+SHEET_ID = os.getenv('GSHEET_ID')
 SHEET_URL = f'https://docs.google.com/spreadsheets/d/{SHEET_ID}'
 
 def _load_feature_data():
