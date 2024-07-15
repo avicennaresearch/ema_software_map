@@ -4321,6 +4321,20 @@
                             "MetricWire - Notes": "",
                             "Movisens - Coverage": "Not Supported",
                             "Movisens - Notes": ""
+                        },
+                        {
+                            "Row ID": "5.1.10",
+                            "Feature Name": "Digit Span",
+                            "Avicenna (Ethica) - Coverage": "Not Supported",
+                            "Avicenna (Ethica) - Notes": "",
+                            "ExpiWell - Coverage": "Not Supported",
+                            "ExpiWell - Notes": "",
+                            "m-Path - Coverage": "Supported",
+                            "m-Path - Notes": "",
+                            "MetricWire - Coverage": "Not Supported",
+                            "MetricWire - Notes": "",
+                            "Movisens - Coverage": "Not Supported",
+                            "Movisens - Notes": ""
                         }
                     ]
                 },
