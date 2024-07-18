@@ -43,8 +43,9 @@ COMPANY_COLUMNS = {
     "Avicenna (Ethica)": ("C", "D"),
     "ExpiWell": ("E", "F"),
     "m-Path": ("G", "H"),
-    "MetricWire": ("I", "J"),
-    "Movisens": ("K", "L"),
+    "mEMA": ("I", "J"),
+    "MetricWire": ("K", "L"),
+    "Movisens": ("M", "N"),
 }
 CREDENTIALS = None
 GSPREAD_CLIENT = None
