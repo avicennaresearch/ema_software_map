@@ -41,11 +41,12 @@ SCOPES = [
 ]
 COMPANY_COLUMNS = {
     "Avicenna (Ethica)": ("C", "D"),
-    "ExpiWell": ("E", "F"),
-    "m-Path": ("G", "H"),
-    "mEMA": ("I", "J"),
-    "MetricWire": ("K", "L"),
-    "Movisens": ("M", "N"),
+    "Beiwe": ("E", "F"),
+    "ExpiWell": ("G", "H"),
+    "m-Path": ("I", "J"),
+    "mEMA": ("K", "L"),
+    "MetricWire": ("M", "N"),
+    "Movisens": ("O", "P"),
 }
 CREDENTIALS = None
 GSPREAD_CLIENT = None
